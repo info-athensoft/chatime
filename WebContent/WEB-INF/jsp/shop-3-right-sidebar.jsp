@@ -78,11 +78,11 @@
         <section id="page-title">
 
             <div class="container clearfix">
-                <h1>Our Drinks</h1>
+                <h1>${itemParentClass.className}</h1>
                 <span>Start browsing and choose your favourite drinks</span>
                 <ol class="breadcrumb">
-                    <li><a href="index.jsp">Home</a></li>
-                    <li class="active">Shop</li>
+                    <li><a href="shopping.do?itemClassId=11">OUR DRINKS</a></li>
+                    <li class="active">${itemParentClass.className}</li>
                 </ol>
             </div>
 

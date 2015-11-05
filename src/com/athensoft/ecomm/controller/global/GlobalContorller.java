@@ -66,9 +66,9 @@ public class GlobalContorller {
 		model.put("itemClass", itemClass);
 		
 		//parent class info
-//		int parentId = itemClass.getParentId();
-//		ItemClassMultiple itemParentClass = itemClassMultipleService.findItemClassById(parentId);
-//		model.put("itemParentClass", itemParentClass);
+		int parentId = itemClass.getParentId();
+		ItemClassMultiple itemParentClass = itemClassMultipleService.findItemClassById(parentId);
+		model.put("itemParentClass", itemParentClass);
 		
 		//featured item
 //		List<ItemSaleFeatured> featuredItemList = itemSaleFeaturedService.getFeaturedItem();
