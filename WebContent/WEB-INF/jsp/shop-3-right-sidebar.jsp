@@ -1,6 +1,9 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
+<!-- image path base -->
+<c:set var="imagePathBase" value="/images/photos"></c:set>
 
 <!DOCTYPE html> 
 <html dir="ltr" lang="en-US">
@@ -75,11 +78,11 @@
         <section id="page-title">
 
             <div class="container clearfix">
-                <h1>Our Drinks</h1>
+                <h1>${itemParentClass.className}</h1>
                 <span>Start browsing and choose your favourite drinks</span>
                 <ol class="breadcrumb">
-                    <li><a href="index.jsp">Home</a></li>
-                    <li class="active">Shop</li>
+                    <li><a href="shopping.do?itemClassId=11">OUR DRINKS</a></li>
+                    <li class="active">${itemParentClass.className}</li>
                 </ol>
             </div>
 
@@ -100,6 +103,7 @@
                         <!-- Shop
                         ============================================= -->
                         <div id="shop" class="product-3 clearfix">
+                        <!-- 
                             <div class="product clearfix">
                                 <div class="product-image">
                                     <a href="viewitemdetail.do?itemId=1"><img src="images/products/Grapefruit-QQ.jpg" alt="Checked Short Dress"></a>
@@ -121,17 +125,19 @@
                                     </div>
                                 </div>
                             </div>
-
+						 -->
+						 
+						<c:forEach var="item" items="${itemList}">
                             <div class="product clearfix">
                                 <div class="product-image">
-                                    <a href="#"><img src="images/products/Grass-Jelly-Milk-Tea.jpg" alt="Slim Fit Chinos"></a>
+                                    <a href="viewitemdetail.do?itemId=${item.itemId}"><img src="${imagePathBase}/${item.itemClassId}/${item.itemPicName}" alt="${item.itemPicName}"></a>
                                     <div class="product-overlay">
                                         <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
                                         <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
                                     </div>
                                 </div>
                                 <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grass Jelly Milk Tea</a></h3></div>
+                                    <div class="product-title"><h3><a href="#">${item.itemName}</a></h3></div>
                                     <div class="product-price">$4.20–$5.20</div>
                                     <div class="product-rating">
                                         <i class="icon-star3"></i>
@@ -142,177 +148,9 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            
-                            <div class="product clearfix">
-                                <div class="product-image">
-                                    <div class="fslider" data-arrows="false">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="#"><img src="images/products/Grass-Jelly-Roasted-Milk-Tea.jpg" alt="Dark Brown Boots"></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                        <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                    </div>
-                                </div>
-                                <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grass Jelly Roasted Milk Tea</a></h3></div>
-                                    <div class="product-price">$4.20–$5.20</div>
-                                    <div class="product-rating">
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star-empty"></i>
-                                        <i class="icon-star-empty"></i>
-                                    </div>
-                                </div>
-                            </div>
+						</c:forEach>                            
                             
 
-                            <div class="product clearfix">
-                                <div class="product-image">
-                                    <a href="#"><img src="images/products/Grapefruit-QQ.jpg" alt="Checked Short Dress"></a>
-                                    <div class="sale-flash">50% Off*</div>
-                                    <div class="product-overlay">
-                                        <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                        <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                    </div>
-                                </div>
-                                <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grapefruit QQ</a></h3></div>
-                                    <div class="product-price">$4.20–$5.20</div>
-                                    <div class="product-rating">
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star-half-full"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="product clearfix">
-                                <div class="product-image">
-                                    <a href="#"><img src="images/products/Grass-Jelly-Milk-Tea.jpg" alt="Slim Fit Chinos"></a>
-                                    <div class="product-overlay">
-                                        <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                        <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                    </div>
-                                </div>
-                                <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grass Jelly Milk Tea</a></h3></div>
-                                    <div class="product-price">$4.20–$5.20</div>
-                                    <div class="product-rating">
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star-half-full"></i>
-                                        <i class="icon-star-empty"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="product clearfix">
-                                <div class="product-image">
-                                    <div class="fslider" data-arrows="false">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="#"><img src="images/products/Grass-Jelly-Roasted-Milk-Tea.jpg" alt="Dark Brown Boots"></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                        <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                    </div>
-                                </div>
-                                <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grass Jelly Roasted Milk Tea</a></h3></div>
-                                    <div class="product-price">$4.20–$5.20</div>
-                                    <div class="product-rating">
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star-empty"></i>
-                                        <i class="icon-star-empty"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="product clearfix">
-                                <div class="product-image">
-                                    <a href="#"><img src="images/products/Grapefruit-QQ.jpg" alt="Checked Short Dress"></a>
-                                    <div class="sale-flash">20% Off*</div>
-                                    <div class="product-overlay">
-                                        <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                        <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                    </div>
-                                </div>
-                                <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grapefruit QQ</a></h3></div>
-                                    <div class="product-price">$4.20–$5.20</div>
-                                    <div class="product-rating">
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star-half-full"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="product clearfix">
-                                <div class="product-image">
-                                    <a href="#"><img src="images/products/Grass-Jelly-Milk-Tea.jpg" alt="Slim Fit Chinos"></a>
-                                    <div class="product-overlay">
-                                        <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                        <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                    </div>
-                                </div>
-                                <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grass Jelly Milk Tea</a></h3></div>
-                                    <div class="product-price">$4.20–$5.20</div>
-                                    <div class="product-rating">
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star-half-full"></i>
-                                        <i class="icon-star-empty"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="product clearfix">
-                                <div class="product-image">
-                                    <div class="fslider" data-arrows="false">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="#"><img src="images/products/Grass-Jelly-Roasted-Milk-Tea.jpg" alt="Dark Brown Boots"></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                        <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                    </div>
-                                </div>
-                                <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grass Jelly Roasted Milk Tea</a></h3></div>
-                                    <div class="product-price">$4.20–$5.20</div>
-                                    <div class="product-rating">
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star3"></i>
-                                        <i class="icon-star-empty"></i>
-                                        <i class="icon-star-empty"></i>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div><!-- #shop end -->
 
