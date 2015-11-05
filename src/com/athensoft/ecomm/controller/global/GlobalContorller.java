@@ -58,7 +58,7 @@ public class GlobalContorller {
 		
 		Map<String, Object> model = mav.getModel();		
 		List<Item> itemList = itemSaleService.findByClassId(itemClassId);
-		System.out.println(itemList.size());
+//		System.out.println(itemList.size());
 		model.put("itemList", itemList);
 		
 		//item class info
@@ -66,9 +66,9 @@ public class GlobalContorller {
 		model.put("itemClass", itemClass);
 		
 		//parent class info
-//		int parentId = itemClass.getParentId();
-//		ItemClassMultiple itemParentClass = itemClassMultipleService.findItemClassById(parentId);
-//		model.put("itemParentClass", itemParentClass);
+		int parentId = itemClass.getParentId();
+		ItemClassMultiple itemParentClass = itemClassMultipleService.findItemClassById(parentId);
+		model.put("itemParentClass", itemParentClass);
 		
 		//featured item
 //		List<ItemSaleFeatured> featuredItemList = itemSaleFeaturedService.getFeaturedItem();
