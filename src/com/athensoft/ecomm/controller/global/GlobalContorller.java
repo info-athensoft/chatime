@@ -52,13 +52,13 @@ public class GlobalContorller {
 	
 
 
-	@RequestMapping("/goshopping.do")	
+	@RequestMapping("/shopping.do")	
 	public ModelAndView goShoppingByClassId(@RequestParam int itemClassId){
 		ModelAndView mav = new ModelAndView();
 		
 		Map<String, Object> model = mav.getModel();		
 		List<Item> itemList = itemSaleService.findByClassId(itemClassId);
-//		System.out.println(itemList.size());
+		System.out.println(itemList.size());
 		model.put("itemList", itemList);
 		
 		//item class info
@@ -66,15 +66,15 @@ public class GlobalContorller {
 		model.put("itemClass", itemClass);
 		
 		//parent class info
-		int parentId = itemClass.getParentId();
-		ItemClassMultiple itemParentClass = itemClassMultipleService.findItemClassById(parentId);
-		model.put("itemParentClass", itemParentClass);
+//		int parentId = itemClass.getParentId();
+//		ItemClassMultiple itemParentClass = itemClassMultipleService.findItemClassById(parentId);
+//		model.put("itemParentClass", itemParentClass);
 		
 		//featured item
-		List<ItemSaleFeatured> featuredItemList = itemSaleFeaturedService.getFeaturedItem();
-		model.put("featuredItemList", featuredItemList);
+//		List<ItemSaleFeatured> featuredItemList = itemSaleFeaturedService.getFeaturedItem();
+//		model.put("featuredItemList", featuredItemList);
 		
-		mav.setViewName("shop-sidebar");		
+		mav.setViewName("shop-3-right-sidebar");		
 		return mav;
 	}
 	
@@ -103,12 +103,12 @@ public class GlobalContorller {
 		model.put("featuredItemList", featuredItemList);
 		
 		
-		mav.setViewName("shop-sidebar");		
+		mav.setViewName("shop-3-right-sidebar");		
 		return mav;
 	}
 	
 	
-	
+/*	
 	@RequestMapping("/search_site.do")	
 	public ModelAndView searchSite(@RequestParam String q){
 		ModelAndView mav = new ModelAndView();
@@ -127,35 +127,48 @@ public class GlobalContorller {
 		model.put("featuredItemList", featuredItemList);
 		return mav;
 	}
-	
+*/	
 	
 	@RequestMapping("/go_shopping.do")	
 	public ModelAndView goShopping(){
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("shop-sidebar");		
+		mav.setViewName("shop-3-right-sidebar");		
 		return mav;
 	}
-	
-	@RequestMapping("/gotoservice.do")	
+
+
+	@RequestMapping("/discovercha.do")	
 	public ModelAndView goService(){
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("page-services");		
+		mav.setViewName("discovercha");		
 		return mav;
 	}
 	
-	@RequestMapping("/about_us_basic.do")	
+	@RequestMapping("/event.do")	
+	public ModelAndView goEvent(){
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("events-calendar");		
+		return mav;
+	}
+	
+/*
+	@RequestMapping("/about.do")	
 	public ModelAndView goAboutUs(){
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("about-us-basic");		
+		mav.setViewName("about");		
+		return mav;
+	}
+*/
+	
+	@RequestMapping("/contact.do")	
+	public ModelAndView goContactUs(){
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("contact");		
 		return mav;
 	}
 	
-	@RequestMapping("/contact_us.do")	
-	public ModelAndView goContactUs(){
-		ModelAndView mav = new ModelAndView();
-		mav.setViewName("contact-us");		
-		return mav;
-	}
+	
+	/* */
 	
 	@RequestMapping("/signup.do")	
 	public ModelAndView signUp(){

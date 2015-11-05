@@ -17,30 +17,30 @@
          </li>
          
          <!-- discover -->
-         <li class="current"><a href="services.jsp"><div>Discover Cha</div></a>
+         <li class="current"><a href="discovercha.do"><div>Discover Cha</div></a>
          </li>
          
           <!-- cha menu -->
-         <li class="current"><a href="shop-3-right-sidebar.jsp"><div>Cha menu</div></a>
+         <li class="current"><a href="shopping.do?itemClassId=11"><div>Cha menu</div></a>
             <ul>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Chatime Jelly</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Coffe</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Fresh Tea</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Fruit Tea</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Milk Tea</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Mousse</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Oriental Pop Tea</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Refreshing Juice</div></a></li>
-				<li><a href="shop-3-right-sidebar.jsp"><div>Smoothie</div></a></li>
+            	<li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
+            	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>
+            	<li><a href="shopping.do?itemClassId=13"><div>Mousse</div></a></li>
+            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
+            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
+				<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
+				<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
+				<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
+				<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
 			</ul>
          </li>
 
          <!-- events -->
-         <li><a href="events-calendar.jsp"><div>Events</div></a>
+         <li><a href="event.do"><div>Events</div></a>
         </li>
         
         <!-- contact us -->
-        <li><a href="contact.jsp"><div>Location</div></a>
+        <li><a href="contact.do"><div>Location</div></a>
         </li> 
         
         <!-- franchise -->

@@ -55,12 +55,12 @@
 
                     <!-- Logo
                     ============================================= -->
-                    <jsp:include page="logo_inc.html"/>
+                    <jsp:include page="../../logo_inc.html"/>
                     <!-- #logo end -->
 
                     <!-- Primary Navigation
                     ============================================= -->
-                    <jsp:include page="nav_inc.jsp"/>
+                    <jsp:include page="../../nav_inc.jsp"/>
 
                 </div>
 
@@ -278,7 +278,7 @@
 
         <!-- Footer
         ============================================= -->
-        <jsp:include page="footer_inc.html"/>
+        <jsp:include page="../../footer_inc.html"/>
 
     </div><!-- #wrapper end -->
 

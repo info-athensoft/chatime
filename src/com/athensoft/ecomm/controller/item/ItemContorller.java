@@ -123,7 +123,7 @@ public class ItemContorller {
 	*/
 	
 	
-	
+	//in use
 	@RequestMapping("/viewitemdetail.do")	
 	public ModelAndView viewItemDetail(@RequestParam int itemId){
 		System.out.println("entering.. viewitemdetail.do");
@@ -134,14 +134,12 @@ public class ItemContorller {
 		model.put("item", item);
 		
 		//featured item
-		List<ItemSaleFeatured> featuredItemList = itemSaleFeaturedService.getFeaturedItem();
-		model.put("featuredItemList", featuredItemList);
-		
+//		List<ItemSaleFeatured> featuredItemList = itemSaleFeaturedService.getFeaturedItem();
+//		model.put("featuredItemList", featuredItemList);
 		
 //		System.out.println(item);
 		
-		
-		mav.setViewName("shop-product-sidebar");		
+		mav.setViewName("shop-single-right-sidebar");		
 		return mav;
 	}	
 

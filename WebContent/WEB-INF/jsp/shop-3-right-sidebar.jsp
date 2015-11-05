@@ -55,12 +55,12 @@
 
                     <!-- Logo
                     ============================================= -->
-                    <jsp:include page="logo_inc.html"/>
+                    <jsp:include page="../../logo_inc.html"/>
                     <!-- #logo end -->
 
                     <!-- Primary Navigation
                     ============================================= -->
-					<jsp:include page="nav_inc.jsp"/>
+					<jsp:include page="../../nav_inc.jsp"/>
 
                 </div>
 
@@ -102,7 +102,7 @@
                         <div id="shop" class="product-3 clearfix">
                             <div class="product clearfix">
                                 <div class="product-image">
-                                    <a href="#"><img src="images/products/Grapefruit-QQ.jpg" alt="Checked Short Dress"></a>
+                                    <a href="viewitemdetail.do?itemId=1"><img src="images/products/Grapefruit-QQ.jpg" alt="Checked Short Dress"></a>
                                     <div class="sale-flash">10% Off*</div>
                                     <div class="product-overlay">
                                         <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
@@ -110,7 +110,7 @@
                                     </div>
                                 </div>
                                 <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="#">Grapefruit QQ</a></h3></div>
+                                    <div class="product-title"><h3><a href="viewitemdetail.do?itemId=1">Grapefruit QQ</a></h3></div>
                                     <div class="product-price">$4.20–$5.20</div>
                                     <div class="product-rating">
                                         <i class="icon-star3"></i>
@@ -322,29 +322,24 @@
                     ============================================= -->
                     <div class="sidebar nobottommargin col_last">
                         <div class="sidebar-widgets-wrap">
-
                             <div class="widget widget_links clearfix">
-
                                 <h4>OUR DRINKS</h4>
                                 <ul>
-                                    <li><a href="shop-3-right-sidebar.jsp">Chatime Jelly</a></li>
-                                    <li><a href="shop-3-right-sidebar.jsp">Coffe</a></li>
-                                    <li><a href="shop-3-right-sidebar.jsp">Fresh Tea</a></li>
-                                    <li><a href="shop-3-right-sidebar.jsp">Fruit Tea</a></li>
-                                    <li><a href="shop-3-right-sidebar.jsp">Milk Tea</a></li>
-                                    <li><a href="shop-3-right-sidebar.jsp">Mousse</a></li>
-                                    <li><a href="shop-3-right-sidebar.jsp">Oriental Pop Tea</a></li>
-                                    <li><a href="shop-3-right-sidebar.jsp">Refreshing Juice</a></li>                                    
-                                    <li><a href="shop-3-right-sidebar.jsp">Smoothie</a></li>
+                                    <li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=13"><div>Mousse</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
+									<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
+									<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
                                 </ul>
-
                             </div>
 
                             <div class="widget clearfix">
-
                                 <h4>Recent Items</h4>
                                 <div id="post-list-footer">
-
                                     <div class="spost clearfix">
                                         <div class="entry-image">
                                             <a href="#"><img src="images/shop/small/1.jpg" alt="Image"></a>
@@ -391,7 +386,6 @@
                                     </div>
 
                                 </div>
-
                             </div>
 						
 						<!-- 
@@ -449,7 +443,6 @@
                              -->
 
                             <div class="widget clearfix">
-
                                 <h4>Popular Items</h4>
                                 <div id="Popular-item">
                                     <div class="spost clearfix">
@@ -520,11 +513,8 @@
 						 -->
 						 
                             <div class="widget clearfix">
-								
 								<h4>Fans who like us</h4>
-								
                                 <div id="oc-clients-full" class="owl-carousel image-carousel">
-
                                     <div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
                                     <div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
                                     <div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Clients"></a></div>
@@ -533,14 +523,11 @@
                                     <div class="oc-item"><a href="#"><img src="images/clients/6.png" alt="Clients"></a></div>
                                     <div class="oc-item"><a href="#"><img src="images/clients/7.png" alt="Clients"></a></div>
                                     <div class="oc-item"><a href="#"><img src="images/clients/8.png" alt="Clients"></a></div>
-
                                 </div>
 
                                 <script type="text/javascript">
                                     jQuery(document).ready(function($) {
-
                                         var ocClients = $("#oc-clients-full");
-
                                         ocClients.owlCarousel({
                                             items: 1,
                                             margin: 10,
@@ -550,7 +537,6 @@
                                             dots: false,
                                             autoplayHoverPause: true
                                         });
-
                                     });
 
                                 </script>
@@ -566,10 +552,8 @@
         </section><!-- #content end -->
 
         <!-- Footer
-        ============================================= -->
-        
-        <jsp:include page="footer_inc.html"></jsp:include>
-        
+        ============================================= -->        
+        <jsp:include page="../../footer_inc.html"></jsp:include>        
         <!-- Footer end -->
 
     </div><!-- #wrapper end -->
@@ -581,6 +565,9 @@
     <!-- Footer Scripts
     ============================================= -->
     <script type="text/javascript" src="js/functions.js"></script>
+    
+    <!-- Athensoft scripts -->
+	<script src="js/local/catalog/item.js"></script>
 
 </body>
 </html>
