@@ -1,6 +1,7 @@
 var canvasEvents = {
 	'12-14-2015' : '<a href="http://google.com" target=_blank>Amet Temporibus ad quod enim dolor doloribus sequi!</a>',
-	'11-11-2015' : '<a href="http://google.com" target=_blank>Necessitatibus nostrum voluptatibus voluptas in sequi aperiam!</a>',
+	'11-11-2015' : '<a href="http://google.com" target=_blank>New Tea Arrival</a>',
+	'11-20-2015' : '<a href="http://google.com" target=_blank>Hot drinks for this Winter</a>',
 	'10-17-2015' : '<a href="http://google.com" target=_blank>Eaque molestiae assumenda necessitatibus alias dignissimos quod facere!</a>',
 	'10-02-2015' : '<a href="http://google.com" target=_blank>Expedita velit sequi harum modi sed autem voluptatibus.</a>',
 	'09-30-2015' : '<a href="http://google.com" target=_blank>Cupiditate blanditiis autem at obcaecati libero laborum.</a>',
