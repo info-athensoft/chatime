@@ -31,7 +31,7 @@
 
     <!-- Document Title
     ============================================= -->
-	<title>Contact | Canvas</title>
+	<title>Chatime | Offering brewed fresh tea</title>
 
 </head>
 

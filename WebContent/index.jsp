@@ -24,7 +24,9 @@
     <!--[if lt IE 9]>
     	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-
+	
+	<link rel='icon' href="http://chatimeboston.com/wp-content/uploads/2014/09/chatime-boston-favicon.jpg" >
+	
     <!-- External JavaScripts
     ============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
@@ -32,7 +34,7 @@
 
     <!-- Document Title
     ============================================= -->
-	<title>Home - Parallax | Canvas</title>
+	<title>Chatime | Offering brewed fresh tea</title>
 	
 	<style>
 
@@ -72,7 +74,7 @@
 		
 		 <!-- Header
         ============================================= -->
-		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+		<header id="header" class="static-sticky semi-transparent" data-sticky-class="not-dark">
 
             <div id="header-wrap">
 
@@ -96,6 +98,7 @@
         </header><!-- #header end -->
 		
         <!-- <section id="slider" class="slider-parallax full-screen with-header force-full-screen clearfix">  -->
+         
         <section id="slider" class="slider-parallax revoslider-wrap full-screen with-header clearfix">             
              <div class="swiper-slide dark">
               <div class="container clearfix">
@@ -107,63 +110,156 @@
               </div>
               <div class="video-wrap">
                   <video poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
-                      <source src='images/videos/explore.mp4' type='video/mp4' />
-                      <source src='images/videos/explore.webm' type='video/webm' />
+                      <source src='images/videos/Clip_02_720.mp4' type='video/mp4' />
+                      <source src='images/videos/Clip_02_720.webm' type='video/webm' />
+                      <!-- <source src='images/videos/explore.webm' type='video/webm' />  -->
                   </video>
                   <div class="video-overlay" style="background-color: rgba(0,0,0,0.15);"></div>
               </div>
           </div>
         </section>
+         
+        
+        
 
        <script type="text/javascript">
-
-       $('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
-       $('#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header').removeClass('dark');
-       $('#header-wrap').removeClass('not-dark');
-
-            </script>
+       	$('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
+       	$('#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header').removeClass('dark');
+       	$('#header-wrap').removeClass('not-dark');
+       </script>
 
         <!-- Content
         ============================================= -->
         <section id="content">
+        	
+        	<div><p>&nbsp;</p></div>
+        	
+        	<!-- about us -->
+        	<div class="row clearfix common-height">
 
-            <div class="content-wrap nopadding">
+                    <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: 95%;">
+                    <!-- <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: cover;"> -->
+                        <div>&nbsp;</div>
+                    </div>
 
-                <div class="section parallax full-screen dark nomargin noborder" style="background-image: url('images/parallax/1.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
-                    <div class="vertical-middle">
-                        <div class="container clearfix">
-
-                            <div class="row">
-
-                                <div class="col-md-3 bottommargin-sm center" data-animate="bounceIn">
-                                    <i class="i-plain i-xlarge divcenter nobottommargin icon-code"></i>
-                                    <div class="counter counter-large counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
-                                    <h5>Lines of Codes</h5>
-                                </div>
-
-                                <div class="col-md-3 bottommargin-sm center" data-animate="bounceIn" data-delay="200">
-                                    <i class="i-plain i-xlarge divcenter nobottommargin icon-magic"></i>
-                                    <div class="counter counter-large counter-lined"><span data-from="3000" data-to="15360" data-refresh-interval="100" data-speed="2500"></span>+</div>
-                                    <h5>KBs of HTML Files</h5>
-                                </div>
-
-                                <div class="col-md-3 bottommargin-sm center" data-animate="bounceIn" data-delay="400">
-                                    <i class="i-plain i-xlarge divcenter nobottommargin icon-file-text"></i>
-                                    <div class="counter counter-large counter-lined"><span data-from="10" data-to="386" data-refresh-interval="25" data-speed="3500"></span>*</div>
-                                    <h5>No. of Templates</h5>
-                                </div>
-
-                                <div class="col-md-3 bottommargin-sm center" data-animate="bounceIn" data-delay="600">
-                                    <i class="i-plain i-xlarge divcenter nobottommargin icon-time"></i>
-                                    <div class="counter counter-large counter-lined"><span data-from="60" data-to="1200" data-refresh-interval="30" data-speed="2700"></span>+</div>
-                                    <h5>Hours of Coding</h5>
-                                </div>
-
+                    <!-- <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;"> -->
+                    <div class="col-md-6 center col-padding" style="background-color: #FFFFFF;">
+                        <div>
+                            <div class="heading-block nobottomborder">
+                                <span class="before-heading color">Put your &amp; words here</span>
+                                <h2>About us</h2>
                             </div>
-
+							
+							<!-- 
+                            <div class="center bottommargin">
+                                <a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
+                                    <img src="images/services/video.jpg" alt="Video">
+                                    <span class="i-overlay nobg"><img src="images/icons/video-play.png" alt="Play"></span>
+                                </a>
+                            </div>
+                             -->
+                             <p></p>
+                            <p class="lead nobottommargin">Chatime is currently one of the fastest growing franchises  across the country.<br/><br/>
+Globally, we have over 1000 retail locations including Taiwan, Mainland China, Hong Kong, Macau, Vietnam , Indonesia, Malaysia, Singapore, the Philippines, India, Korea, UAE, United Kingdom, Canada and the United States of America, experiencing a growth rate of more than 80 percent over the past two years.
+</p>
+                            <p><br/><br/><br/><br/><br/><br/></p>
                         </div>
                     </div>
                 </div>
+        	
+        
+			<!-- full width -->
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/parallax/home/5.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+                    <div class="container center clearfix">
+
+                        <div class="emphasis-title">
+                        <!-- 
+                            <h2>Perfect tool for Customization</h2>
+                            <p class="lead topmargin-sm">Create as much unique content as you want with this Template which has powerful &amp; optimized code.</p>
+                             -->
+                        </div>
+
+                        <a href="shop-3-right-sidebar.jsp" class="button button-rounded button-white button-light button-large">Start Browsing</a>
+                        <a href="contact.jsp" class="button button-rounded button-white button-light button-large">Find us</a>
+
+                    </div>
+              </div>
+			
+			<!-- Awards -->
+			<div class="row clearfix common-height">
+                    <!-- <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;"> -->
+                    <div class="col-md-6 center col-padding" style="background-color: #FFFFFF;">
+                        <div>
+                            <div class="heading-block nobottomborder">
+                                <span class="before-heading color">Put your &amp; words here</span>
+                                <h2>Awards</h2>
+                            </div>
+
+                            <p></p>
+                            <p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
+                            <p><br/><br/><br/><br/><br/><br/></p>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: 95%;">
+                    <!-- <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: cover;"> -->
+                        <div>&nbsp;</div>
+                    </div>
+                    
+                </div>
+			
+			<!-- full width -->
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/parallax/home/5.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+                    <div class="container center clearfix">
+
+                        <div class="emphasis-title">
+                        <!-- 
+                            <h2>Perfect tool for Customization</h2>
+                            <p class="lead topmargin-sm">Create as much unique content as you want with this Template which has powerful &amp; optimized code.</p>
+                             -->
+                        </div>
+
+                        <a href="shop-3-right-sidebar.jsp" class="button button-rounded button-white button-light button-large">Start Browsing</a>
+                        <a href="contact.jsp" class="button button-rounded button-white button-light button-large">Find us</a>
+
+                    </div>
+              </div>
+			
+			<!-- join us -->
+        	<div class="row clearfix common-height">
+                    <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: 95%;">
+                    </div>
+
+                    <!-- <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;"> -->
+                    <div class="col-md-6 center col-padding" style="background-color: #FFFFFF;">
+                        <div>
+                            <div class="heading-block nobottomborder">
+                                <span class="before-heading color">Put your &amp; words here</span>
+                                <h2>Join us</h2>
+                            </div>
+							
+							<!-- 
+                            <div class="center bottommargin">
+                                <a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
+                                    <img src="images/services/video.jpg" alt="Video">
+                                    <span class="i-overlay nobg"><img src="images/icons/video-play.png" alt="Play"></span>
+                                </a>
+                            </div>
+                             -->
+                             <p></p>
+                            <p class="lead nobottommargin">Chatime is currently one of the fastest growing franchises  across the country.<br/><br/>
+Globally, we have over 1000 retail locations including Taiwan, Mainland China, Hong Kong, Macau, Vietnam , Indonesia, Malaysia, Singapore, the Philippines, India, Korea, UAE, United Kingdom, Canada and the United States of America, experiencing a growth rate of more than 80 percent over the past two years.
+</p>
+                            <p><br/><br/><br/><br/><br/><br/></p>
+                        </div>
+                    </div>
+                </div>
+			
+			
+			
+			
+			<!--  -->
+            <div class="content-wrap nopadding">
 
                 <div class="section parallax full-screen nomargin noborder" style="background-image: url('images/parallax/home/11.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="vertical-middle">
@@ -215,21 +311,24 @@
 
                 </div>
 
-                <div class="clear"></div>
 
+			<!-- 
+                <div class="clear"></div>
                 <div class="section nomargin noborder" style="background-image: url('images/parallax/3.jpg');">
                     <div class="heading-block center nobottomborder nobottommargin">
                         <h2>"Everything is designed, but some things are designed well."</h2>
                     </div>
                 </div>
+			 -->
 
+
+				<!-- 
                 <div class="section parallax full-screen dark nomargin noborder" style="background-image: url('images/parallax/home/10.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="vertical-middle">
                         <div class="container clearfix">
 
                             <div class="col_three_fifth nobottommargin">
 
-                               <!--  <iframe src="http://player.vimeo.com/video/101666580" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>  -->
  								<iframe width="600" height="381" src="https://www.youtube.com/embed/xwwObEpe900?feature=oembed" frameborder="0" allowfullscreen></iframe>
                             </div>
 
@@ -240,23 +339,23 @@
                                     <p class="lead topmargin-sm">Our Cha is brewed fresh in store, using tea leaves and other high quality natural ingredients.
 We rely on natural flavours, so we don’t need to use preservatives and we don’t use pre-made tea or tea powders.</p>
                                 </div>
-                                
-                                <!--  <a href="#" class="button button-rounded button-rounded button-light button-large">Discover Cha</a>  -->
-
                             </div>
 
                         </div>
                     </div>
                 </div>
-
+                 -->
+                  <!--  <a href="#" class="button button-rounded button-rounded button-light button-large">Discover Cha</a>  -->
+                  
+			<!-- 
                 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/parallax/home/5.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="container center clearfix">
 
                         <div class="emphasis-title">
-                        <!-- 
+                        
                             <h2>Perfect tool for Customization</h2>
                             <p class="lead topmargin-sm">Create as much unique content as you want with this Template which has powerful &amp; optimized code.</p>
-                             -->
+                             
                         </div>
 
                         <a href="shop-3-right-sidebar.jsp" class="button button-rounded button-white button-light button-large">Start Browsing</a>
@@ -267,13 +366,63 @@ We rely on natural flavours, so we don’t need to use preservatives and we don�
 
             </div>
 
-        </section><!-- #content end -->
+        </section>
+         -->
+        
+        <!-- #content end -->
+    </div><!-- #wrapper end -->
+    
+    
+ <!-- featured items -->
+                 <div class="clear"></div>
+                <div id="oc-clients" class="section nobgcolor notopmargin owl-carousel owl-carousel-full image-carousel footer-stick">
+                    <div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/4.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/5.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/6.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/7.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/8.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/9.png" alt="Clients"></a></div>
+                    <div class="oc-item"><a href="#"><img src="images/clients/10.png" alt="Clients"></a></div>
+                </div>
+				<div>
+					<p>&nbsp;</p>
+				</div>
+                <script type="text/javascript">
+
+                    jQuery(document).ready(function($) {
+                        var ocClients = $("#oc-clients");
+                        ocClients.owlCarousel({
+                            margin: 80,
+                            loop: true,
+                            nav: false,
+                            autoplay: true,
+                            dots: false,
+                            autoplayHoverPause: true,
+                            responsive:{
+                                0:{ items:3 },
+                                600:{ items:4 },
+                                1000:{ items:5 },
+                                1200:{ items:6 },
+                                1400:{ items:7 }
+                            }
+                        });
+
+                    });
+
+                </script>
+                
+                
+                <!--  end of featured items -->
+
 
         <!-- Footer
         ============================================= -->
         <jsp:include page="footer_inc.html"/><!-- #footer end -->
 
-    </div><!-- #wrapper end -->
+
 
     <!-- Go To Top
     ============================================= -->

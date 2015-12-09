@@ -31,7 +31,7 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>Shop Single - Right Sidebar | Canvas</title>
+    <title>Chatime | Offering brewed fresh tea</title>
 
 </head>
 

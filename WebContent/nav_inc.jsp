@@ -13,15 +13,15 @@
 
      <ul>
          <!-- home -->
-         <li class="current"><a href="index.jsp"><div>Home</div></a>
+         <li><a href="index.jsp"><div>Home</div></a>
          </li>
          
          <!-- discover -->
-         <li class="current"><a href="discovercha.do"><div>Discover Cha</div></a>
+         <li><a href="discovercha.do"><div>Discover Cha</div></a>
          </li>
          
           <!-- cha menu -->
-         <li class="current"><a href="shopping.do?itemClassId=11"><div>Cha menu</div></a>
+         <li><a href="shopping.do?itemClassId=11"><div>Cha menu</div></a>
             <ul>
             	<li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
             	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>

@@ -35,7 +35,7 @@
 
     <!-- Document Title
     ============================================= -->
-	<title>Shop - 3 Columns Right Sidebar | Canvas</title>
+	<title>Chatime | Offering brewed fresh tea</title>
 
 </head>
 
@@ -160,23 +160,10 @@
                     ============================================= -->
                     <div class="sidebar nobottommargin col_last">
                         <div class="sidebar-widgets-wrap">
-                            <div class="widget widget_links clearfix">
-                                <h4>OUR DRINKS</h4>
-                                <ul>
-                                    <li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=13"><div>Mousse</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
-									<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
-									<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
-									<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
-									<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
-                                </ul>
-                            </div>
+                            
 
                             <div class="widget clearfix">
-                                <h4>Recent Items</h4>
+                                <h4>Most Popular</h4>
                                 <div id="post-list-footer">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
@@ -225,6 +212,8 @@
 
                                 </div>
                             </div>
+                            
+                            
 						
 						<!-- 
                             <div class="widget clearfix">
@@ -281,7 +270,7 @@
                              -->
 
                             <div class="widget clearfix">
-                                <h4>Popular Items</h4>
+                                <h4>New Drinks</h4>
                                 <div id="Popular-item">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
@@ -328,8 +317,25 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
+                            
+                            <!-- menu -->
+                            <div class="widget widget_links clearfix">
+                                <h4>OUR DRINKS</h4>
+                                <ul>
+                                    <li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=13"><div>Mousse</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
+									<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
+									<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
+                                </ul>
+                            </div>
+                            
+                            
 						<!-- 
                             <div class="widget clearfix">
                                 <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FEnvato&amp;width=240&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=499481203443583" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:290px;" allowTransparency="true"></iframe>
