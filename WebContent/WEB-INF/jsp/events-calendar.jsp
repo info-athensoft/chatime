@@ -45,7 +45,7 @@
 
         <!-- Header
         ============================================= -->
-        <header id="header" class="full-header">
+        <header id="header" class="static-sticky semi-transparent">
 
             <div id="header-wrap">
 
