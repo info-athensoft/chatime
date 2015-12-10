@@ -43,7 +43,7 @@
 
         <!-- Header
         ============================================= -->
-        <header id="header" class="full-header">
+        <header id="header" class="static-sticky semi-transparent" data-sticky-class="not-dark">
 
             <div id="header-wrap">
 
@@ -71,8 +71,8 @@
         <section id="page-title">
 
             <div class="container clearfix">
-                <h1>Contact</h1>
-                <span>Get in Touch with Us</span>
+                <h1>Contact and Career</h1>
+                <span>Get in touch with us</span>
                 <ol class="breadcrumb">
                     <li><a href="index.jsp">Home</a></li>
                     <li class="active">Contact</li>
@@ -180,7 +180,8 @@
                                 <label for="template-contactform-subject">Subject <small>*</small></label>
                                 <input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
                             </div>
-
+							
+							<!-- 
                             <div class="col_one_third col_last">
                                 <label for="template-contactform-service">Services</label>
                                 <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
@@ -191,6 +192,7 @@
                                     <option value="Graphic Design">Graphic Design</option>
                                 </select>
                             </div>
+                             -->
 
                             <div class="clear"></div>
 
@@ -233,90 +235,40 @@
                     <!-- Sidebar
                     ============================================= -->
                     <div class="sidebar col_last nobottommargin">
-
+						
+						<h3>We are hiring</h3>
+						
+						<p style="font-size:1.2em">Put your hiring words here</p>
+						
+						<img src="images/clients/1.png"/>
+						
+						<p>&nbsp;</p>
+							
                         <address>
                             <strong>Headquarters:</strong><br>
-                            795 Folsom Ave, Suite 600<br>
-                            San Francisco, CA 94107<br>
+                            St.No. St. Name, Suite No.<br>
+                            City, QC &nbsp;&nbsp; Postal Code<br>
                         </address>
-                        <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-                        <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-                        <abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+                        <abbr title="Phone Number"><strong>Phone:</strong></abbr> &nbsp;&nbsp; +1(514)431-8388<br/>
+                        <!-- <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br/>   -->
+                        <abbr title="Email Address"><strong>Email:</strong></abbr>&nbsp;&nbsp; info@chatimemontreal.ca
 
+                        
                         <div class="widget noborder notoppadding">
 
-                            <div class="fslider testimonial twitter-scroll" data-animation="slide" data-arrows="false">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide">
-                                            <div class="testi-image">
-                                                <a href="#"><i class="icon-twitter2"></i></a>
-                                            </div>
-                                            <div class="testi-content">
-                                                <p>Join us in watching some of the wonderful moments we've shared with our amazing Community^ Carmen <a href="http://t.co/zpH1khNemV" target="_blank">http://t.co/zpH1khNemV</a></p>
-                                                <div class="testi-meta">
-                                                    <span><a href="#">32 minutes ago</a></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slide">
-                                            <div class="testi-image">
-                                                <a href="#"><i class="icon-twitter2"></i></a>
-                                            </div>
-                                            <div class="testi-content">
-                                                <p>@<a href="http://twitter.com/amazonastyle" target="_blank">amazonastyle</a> Yay! Glad to help in any way we can :D ^TK</p>
-                                                <div class="testi-meta">
-                                                    <span>4 hours ago</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slide">
-                                            <div class="testi-image">
-                                                <a href="#"><i class="icon-twitter2"></i></a>
-                                            </div>
-                                            <div class="testi-content">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, perspiciatis illum totam dolore deleniti labore.</p>
-                                                <div class="testi-meta">
-                                                    <span>5 days ago</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="widget noborder notoppadding">
-
-                            <a href="#" class="social-icon si-small si-dark si-facebook">
+                            <a href="#" class="social-icon si-large si-dark si-facebook">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
                             </a>
 
-                            <a href="#" class="social-icon si-small si-dark si-twitter">
+                            <a href="#" class="social-icon si-large si-dark si-twitter">
                                 <i class="icon-twitter"></i>
                                 <i class="icon-twitter"></i>
                             </a>
 
-                            <a href="#" class="social-icon si-small si-dark si-dribbble">
-                                <i class="icon-dribbble"></i>
-                                <i class="icon-dribbble"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-dark si-forrst">
-                                <i class="icon-forrst"></i>
-                                <i class="icon-forrst"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-dark si-pinterest">
-                                <i class="icon-pinterest"></i>
-                                <i class="icon-pinterest"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-dark si-gplus">
-                                <i class="icon-gplus"></i>
-                                <i class="icon-gplus"></i>
+                            <a href="#" class="social-icon si-large si-dark si-instagram">
+                                <i class="icon-instagram"></i>
+                                <i class="icon-instagram"></i>
                             </a>
 
                         </div>

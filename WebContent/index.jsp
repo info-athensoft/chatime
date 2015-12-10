@@ -138,8 +138,7 @@
         	<div class="row clearfix common-height">
 
                     <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: 95%;">
-                    <!-- <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: cover;"> -->
-                        <div>&nbsp;</div>
+                        <!-- <div>&nbsp;</div>  -->
                     </div>
 
                     <!-- <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;"> -->
@@ -162,7 +161,7 @@
                             <p class="lead nobottommargin">Chatime is currently one of the fastest growing franchises  across the country.<br/><br/>
 Globally, we have over 1000 retail locations including Taiwan, Mainland China, Hong Kong, Macau, Vietnam , Indonesia, Malaysia, Singapore, the Philippines, India, Korea, UAE, United Kingdom, Canada and the United States of America, experiencing a growth rate of more than 80 percent over the past two years.
 </p>
-                            <p><br/><br/><br/><br/><br/><br/></p>
+                            <p><br/><br/><br/></p>
                         </div>
                     </div>
                 </div>
@@ -237,20 +236,11 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
                                 <span class="before-heading color">Put your &amp; words here</span>
                                 <h2>Join us</h2>
                             </div>
-							
-							<!-- 
-                            <div class="center bottommargin">
-                                <a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
-                                    <img src="images/services/video.jpg" alt="Video">
-                                    <span class="i-overlay nobg"><img src="images/icons/video-play.png" alt="Play"></span>
-                                </a>
-                            </div>
-                             -->
                              <p></p>
                             <p class="lead nobottommargin">Chatime is currently one of the fastest growing franchises  across the country.<br/><br/>
 Globally, we have over 1000 retail locations including Taiwan, Mainland China, Hong Kong, Macau, Vietnam , Indonesia, Malaysia, Singapore, the Philippines, India, Korea, UAE, United Kingdom, Canada and the United States of America, experiencing a growth rate of more than 80 percent over the past two years.
 </p>
-                            <p><br/><br/><br/><br/><br/><br/></p>
+                            <p><br/><br/><br/></p>
                         </div>
                     </div>
                 </div>
@@ -259,6 +249,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
 			
 			
 			<!--  -->
+			<!-- 
             <div class="content-wrap nopadding">
 
                 <div class="section parallax full-screen nomargin noborder" style="background-image: url('images/parallax/home/11.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
@@ -311,116 +302,64 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
 
                 </div>
 
-
-			<!-- 
-                <div class="clear"></div>
-                <div class="section nomargin noborder" style="background-image: url('images/parallax/3.jpg');">
-                    <div class="heading-block center nobottomborder nobottommargin">
-                        <h2>"Everything is designed, but some things are designed well."</h2>
-                    </div>
-                </div>
-			 -->
-
-
-				<!-- 
-                <div class="section parallax full-screen dark nomargin noborder" style="background-image: url('images/parallax/home/10.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
-                    <div class="vertical-middle">
-                        <div class="container clearfix">
-
-                            <div class="col_three_fifth nobottommargin">
-
- 								<iframe width="600" height="381" src="https://www.youtube.com/embed/xwwObEpe900?feature=oembed" frameborder="0" allowfullscreen></iframe>
-                            </div>
-
-                            <div class="col_two_fifth col_last nobottommargin">
-
-                                <div class="emphasis-title">
-                                    <h2>Cha means Tea</h2>
-                                    <p class="lead topmargin-sm">Our Cha is brewed fresh in store, using tea leaves and other high quality natural ingredients.
-We rely on natural flavours, so we don’t need to use preservatives and we don’t use pre-made tea or tea powders.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                 -->
-                  <!--  <a href="#" class="button button-rounded button-rounded button-light button-large">Discover Cha</a>  -->
-                  
-			<!-- 
-                <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/parallax/home/5.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
-                    <div class="container center clearfix">
-
-                        <div class="emphasis-title">
-                        
-                            <h2>Perfect tool for Customization</h2>
-                            <p class="lead topmargin-sm">Create as much unique content as you want with this Template which has powerful &amp; optimized code.</p>
-                             
-                        </div>
-
-                        <a href="shop-3-right-sidebar.jsp" class="button button-rounded button-white button-light button-large">Start Browsing</a>
-                        <a href="contact.jsp" class="button button-rounded button-white button-light button-large">Find us</a>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-         -->
+		 -->
         
         <!-- #content end -->
     </div><!-- #wrapper end -->
     
     
  <!-- featured items -->
-                 <div class="clear"></div>
-                <div id="oc-clients" class="section nobgcolor notopmargin owl-carousel owl-carousel-full image-carousel footer-stick">
-                    <div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/4.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/5.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/6.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/7.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/8.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/9.png" alt="Clients"></a></div>
-                    <div class="oc-item"><a href="#"><img src="images/clients/10.png" alt="Clients"></a></div>
-                </div>
-				<div>
-					<p>&nbsp;</p>
-				</div>
-                <script type="text/javascript">
+ <div class="nomargin noborder">
+ 	<div class="heading-block center">
+         <h2>Featured Items</h2>
+         <span>Put your words here. Put your words here. Put your words here.</span>
+	</div>    
+    <div id="oc-clients" class="section nobgcolor notopmargin owl-carousel owl-carousel-full image-carousel footer-stick">
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-1.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-2.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-3.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-4.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-5.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-6.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-1.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-2.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-3.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-4.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-5.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="images/featured/featured-6.png" alt="Featured Item"></a></div>
+    </div>
+	<div>
+		<br/>
+	</div>
+</div>
+    <script type="text/javascript">
 
-                    jQuery(document).ready(function($) {
-                        var ocClients = $("#oc-clients");
-                        ocClients.owlCarousel({
-                            margin: 80,
-                            loop: true,
-                            nav: false,
-                            autoplay: true,
-                            dots: false,
-                            autoplayHoverPause: true,
-                            responsive:{
-                                0:{ items:3 },
-                                600:{ items:4 },
-                                1000:{ items:5 },
-                                1200:{ items:6 },
-                                1400:{ items:7 }
-                            }
-                        });
+        jQuery(document).ready(function($) {
+            var ocClients = $("#oc-clients");
+            ocClients.owlCarousel({
+                margin: 80,
+                loop: true,
+                nav: false,
+                autoplay: true,
+                dots: false,
+                autoplayHoverPause: true,
+                responsive:{
+                    0:{ items:3 },
+                    600:{ items:4 },
+                    1000:{ items:5 },
+                    1200:{ items:6 },
+                    1400:{ items:7 }
+                }
+            });
 
-                    });
+        });
 
-                </script>
-                
-                
-                <!--  end of featured items -->
+    </script><!--  end of featured items -->
 
 
-        <!-- Footer
-        ============================================= -->
-        <jsp:include page="footer_inc.html"/><!-- #footer end -->
+    <!-- Footer
+    ============================================= -->
+    <jsp:include page="footer_inc.html"/><!-- #footer end -->
 
 
 
