@@ -74,238 +74,219 @@
         <section id="page-title">
 
             <div class="container clearfix">
-                <h1>Discover Cha</h1>
-                <span>We provide amazing choices of Cha</span>
+                <h1>Franchise</h1>
+                <span>Chatime is a great business to join</span>
                 <ol class="breadcrumb">
                     <li><a href="index.jsp">Home</a></li>
-                    <li class="active">Discover Cha</li>
+                    <li class="active">Franchise</li>
                 </ol>
             </div>
 
         </section><!-- #page-title end -->
 
-        <!-- Content
-        ============================================= -->
-        <section id="content">
-
-            <div class="content-wrap">
-
-                <div class="container clearfix">
-
-                    <div class="col_one_third nobottommargin">
-                        <div class="feature-box media-box">
-                            <div class="fbox-media">
-                                <img src="images/services/1.jpg" alt="Why choose Us?">
-                            </div>
-                            <div class="fbox-desc">
-                                <h3>Toppings<span class="subtitle">Put your words here</span></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third nobottommargin">
-                        <div class="feature-box media-box">
-                            <div class="fbox-media">
-                                <img src="images/services/2.jpg" alt="Why choose Us?">
-                            </div>
-                            <div class="fbox-desc">
-                                <h3>Size<span class="subtitle">Put your words here</span></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third nobottommargin col_last">
-                        <div class="feature-box media-box">
-                            <div class="fbox-media">
-                                <img src="images/services/3.jpg" alt="Why choose Us?">
-                            </div>
-                            <div class="fbox-desc">
-                                <h3>Sweetness and Ice<span class="subtitle">Put your words here</span></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="section">
-
-                    <div class="container clearfix">
-
-                        <div class="heading-block center">
-                            <h2>Over 10 toppings we are offering to you</h2>
-                            <span>There are peal, herbal jelly, coconut jelly, red bean, coffee jelly, aleo vera, lychee jelly, rainbow jelly, grape jelly, egg pudding, malt, whipped cream, fulfils consumers' different taste.</span>
-                        </div>
-
-                        <div class="col_full">
-
-                            <img data-animate="fadeIn" class="aligncenter" src="images/discovercha/toppings-discover-cha.png" alt="Macbook">
-
-                        </div>
-
-                        <div class="col_one_third nobottommargin">
-
-                            <div class="feature-box fbox-plain">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="i-alt">1.</i></a>
-                                </div>
-                                <h3>Choose a Product.</h3>
-                                <p>Perferendis, nam. Eum aperiam vel animi beatae corporis dignissimos, molestias, placeat, maxime optio ipsam nostrum atque quidem.</p>
-                            </div>
-
-                        </div>
-
-                        <div class="col_one_third nobottommargin">
-
-                            <div class="feature-box fbox-plain">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="i-alt">2.</i></a>
-                                </div>
-                                <h3>Enter Shipping Info.</h3>
-                                <p>Saepe qui enim at animi. Repellendus, blanditiis doloremque asperiores reprehenderit deleniti. Ipsam nam accusantium ex!</p>
-                            </div>
-
-                        </div>
-
-                        <div class="col_one_third nobottommargin col_last">
-
-                            <div class="feature-box fbox-plain">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="i-alt">3.</i></a>
-                                </div>
-                                <h3>Complete your Payment.</h3>
-                                <p>Necessitatibus accusamus, inventore atque commodi, animi architecto ea sed, suscipit tempora ex deleniti quae. Consectetur, sint velit.</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="container clearfix">
-
-                    <div class="col_three_fifth topmargin1 nobottommargin" id="radarChart" style="opacity: 0;">
-                        <!-- <canvas id="radarChartCanvas" width="430" height="300"></canvas>  -->
-                        <img src="images/discovercha/size-discover-cha-2.png" width="600" height="380"/>
-                    </div>
-
-                    <div class="col_two_fifth nobottommargin col_last">
-
-                        <div class="heading-block">
-                            <h3>Size of our drinks</h3>
-                            <span>Chatime offers customer regular size (500ml) and large size (700ml) of cold drinks, and regular size (500ml) of hot drinks.</span>
-                        </div>
-
-                        <p></p>
-                        <a href="#">Learn more &rarr;</a>
-
-                    </div>
-
-                    <div class="clear"></div><div class="line"></div>
-
-                    <div class="col_two_fifth">
-
-                        <div class="heading-block">
-                            <h3>Sweetness and Ice</h3>
-                            <span>Chatime cares about customers’ different taste and habit, and welcome customers to choose their preferred sweetness and ice level when ordering.</span>
-                        </div>
-
-                        <p></p>
-
-                        <a href="#">Learn more &rarr;</a>
-
-                    </div>
-                    
-                    <div class="col_three_fifth topmargin1 col_last" id="doughnutChart" style="opacity: 0;">
-                        <!-- <canvas id="doughnutChartCanvas" width="620" height="380"></canvas>  -->
-                        <img src="images/discovercha/ice-discover-cha.png" width="540" height="460"/>
-                    </div>
-
-                    <script type="text/javascript">
-
-                    jQuery(window).load( function(){
-
-                        var radarChartData = {
-                            labels : ["A","B","C","D","E","F","G"],
-                            datasets : [
-                                {
-                                    fillColor : "rgba(220,220,220,0.5)",
-                                    strokeColor : "rgba(220,220,220,1)",
-                                    pointColor : "rgba(220,220,220,1)",
-                                    pointStrokeColor : "#fff",
-                                    data : [65,59,90,81,56,55,40]
-                                },
-                                {
-                                    fillColor : "rgba(151,187,205,0.5)",
-                                    strokeColor : "rgba(151,187,205,1)",
-                                    pointColor : "rgba(151,187,205,1)",
-                                    pointStrokeColor : "#fff",
-                                    data : [28,48,40,19,96,27,100]
-                                }
-                            ]
-
-                        };
-
-                        var doughnutChartData = [
-                            {
-                                value: 30,
-                                color:"#F7464A"
-                            },
-                            {
-                                value : 50,
-                                color : "#46BFBD"
-                            },
-                            {
-                                value : 100,
-                                color : "#FDB45C"
-                            },
-                            {
-                                value : 40,
-                                color : "#949FB1"
-                            },
-                            {
-                                value : 120,
-                                color : "#4D5360"
-                            }
-                        ];
-
-                        var globalGraphSettings = {animation : Modernizr.canvas};
-
-                        function showRadarChart(){
-                            var ctx = document.getElementById("radarChartCanvas").getContext("2d");
-                            new Chart(ctx).Radar(radarChartData,globalGraphSettings);
-                        }
-
-                        function showDoughnutChart(){
-                            var ctx = document.getElementById("doughnutChartCanvas").getContext("2d");
-                            new Chart(ctx).Doughnut(doughnutChartData,globalGraphSettings);
-                        }
-
-                        $('#radarChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showRadarChart,300); },{accX: 0, accY: -155},'easeInCubic');
-
-                        $('#doughnutChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showDoughnutChart,300); },{accX: 0, accY: -155},'easeInCubic');
-
-                    });
-
-                    </script>
-
-                </div>
+		<!-- content -->
+		<section id="content1">
+			<div class="content-wrap" style="background-image: url(http://www.chatimemontreal.com/wp-content/uploads/2014/06/chatime-bg-21.jpg); background-repeat: repeat; background-position: center top; background-size:auto;">
+				<div class="container clearfix">
 				
-				
-				<!-- 
-                <a class="button button-full center tright topmargin footer-stick">
-                    <div class="container clearfix">
-                        Need help with your Account? <strong>Start here</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					<div class="heading-block center">
+	                     <h2>There is no doubting Chatime’s successful franchising model.</h2>
+                         <p style="font-size:1.2em">We are one the fastest growing franchise businesses in Australia with now over fifty stores opened in the last three years, the next one could be yours. We have our premium locations selected and simply require the right partner with the right attributes to become part of the Chatime franchise group as we continue to grow and work with entrepreneurs locally and around the globe.</p>
                     </div>
-                </a>
-                 -->
+					
+					<!-- row 1 -->
+					<div class="col_one_third">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-1.png"/></a>
+							</div>
+							<h3>Step 1<span class="subtitle">Download and complete Chatime franchise application form</span></h3>
+						</div>
+					</div>
+						
+					<div class="col_one_third">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-2.png"/></a>
+							</div>
+							<h3>Step 2<span class="subtitle">We'll assess your application and qualify that you have sufficient funds</span></h3>
+						</div>
+					</div>
+					<div class="col_one_third col_last">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-3.png"/></a>
+							</div>
+							<h3>Step 6<span class="subtitle">Select your location</span></h3>
+						</div>
+					</div>
+					<div class="clear"></div>
+					
+					<!-- row -->
+					<div class="col_one_third">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-4.png"/></a>
+							</div>
+							<h3>Step 4<span class="subtitle">Sign lease and franchise agreement</span></h3>
+						</div>
+					</div>
+					
+					<div class="col_one_third">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-5.png"/></a>
+							</div>
+							<h3>Step 5<span class="subtitle">Initial deposit</span></h3>
+						</div>
+					</div>
+					<div class="col_one_third col_last">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-6.png"/></a>
+							</div>
+							<h3>Step 6<span class="subtitle">Starting renovation</span></h3>
+						</div>
+					</div>
+					
+					<div class="clear"></div>
+					
+					
+					<!-- row -->
+					<div class="col_one_third">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-7.png"/></a>
+							</div>
+							<h3>Step 7<span class="subtitle">Shop fit out and training</span></h3>
+						</div>
+					</div>
+					
+					<div class="col_one_third">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-8.png"/></a>
+							</div>
+							<h3>Step 8<span class="subtitle">Cleaning and equipment installation</span></h3>
+						</div>
+					</div>
+					<div class="col_one_third col_last">
+						<div class="feature-box fbox-center fbox-border fbox-effect noborder">
+							<div>
+								<a href="#"><img src="images/franchise/franchise-icon-9.png"/></a>
+							</div>
+							<h3>Step 9<span class="subtitle">Open for business</span></h3>
+						</div>
+					</div>
+					<div class="clear"></div>
+					
+					
+					
+					
+					
+					
+					
+					<!--  -->
+					<div class="heading-block center">
+		              <h2>Chatime support</h2>
+		                 <p style="font-size:1.2em">In return for your investment in a Chatime franchise, you will receive following set up and support</p>
+		            </div>
+		            
+		            
+		            <!--  -->
+	            	
+                    <div class="container clearfix">                                               
+                        <div class="col_one_third">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">1</i></a>
+								</div>
+								<h3><span class="subtitle">Fully fitted out and equipped Chatime store <br/><br/></span></h3>
+							</div>
+						</div>
+						
+						<div class="col_one_third">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">2</i></a>
+								</div>
+								<h3><span class="subtitle">Full training in every aspect of running a Chatime retail business<br/><br/></span></h3>
+							</div>
+						</div>
+						
+						<div class="col_one_third col_last">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">3</i></a>
+								</div>
+								<h3><span class="subtitle">Assistance with staffing – Chatime will help in selecting and training your key personnel</span></h3>
+							</div>
+						</div>
 
-            </div>
+                       <div class="col_one_third">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">4</i></a>
+								</div>
+								<h3><span class="subtitle">Your new business will be set up with Chatime business operating systems<br/><br/></span></h3>
+							</div>
+						</div>
 
-        </section><!-- #content end -->
+                       <div class="col_one_third">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">5</i></a>
+								</div>
+								<h3><span class="subtitle">Your business will trade as Chatime and you will be licensed to use the Chatime name and trademark</span></h3>
+							</div>
+						</div>
+
+                       <div class="col_one_third col_last">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">6</i></a>
+								</div>
+								<h3><span class="subtitle">Quality control monitoring<br/><br/><br/><br/></span></h3>
+							</div>
+						</div>
+						
+						<div class="col_one_third">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">7</i></a>
+								</div>
+								<h3><span class="subtitle">Supply of Chatime original materials<br/><br/></span></h3>
+							</div>
+						</div>
+
+                       <div class="col_one_third col_last">
+							<div class="feature-box fbox-center fbox-bg fbox-border fbox-effect">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">8</i></a>
+								</div>
+								<h3><span class="subtitle">Regular and ongoing support in launching new products and services</span></h3>
+							</div>
+						</div>
+                 
+                </div><!-- end of support items -->
+                
+                <!--  -->
+				<div class="content-wrap">
+				<div class="container clearfix">
+		                <div class="col_full">
+		                    <img data-animate="fadeIn" class="aligncenter" src="images/franchise/franchise-support2.png" alt="franchise-support">
+		                </div>
+		         </div>
+		         </div>
+					
+				</div>
+			</div>
+		</section>			
+			
+		
+	
+		
+
 
         <!-- Footer
         ============================================= -->

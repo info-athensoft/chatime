@@ -44,7 +44,7 @@
         </li> 
         
         <!-- franchise -->
-        <li><a href="#"><div>Franchise</div></a>
+        <li><a href="franchise.do"><div>Franchise</div></a>
         </li>
         
    </ul>

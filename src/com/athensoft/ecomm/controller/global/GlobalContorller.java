@@ -151,14 +151,14 @@ public class GlobalContorller {
 		return mav;
 	}
 	
-/*
-	@RequestMapping("/about.do")	
-	public ModelAndView goAboutUs(){
+
+	@RequestMapping("/franchise.do")	
+	public ModelAndView goFranchise(){
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("about");		
+		mav.setViewName("franchise");		
 		return mav;
 	}
-*/
+
 	
 	@RequestMapping("/contact.do")	
 	public ModelAndView goContactUs(){
