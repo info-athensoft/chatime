@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!-- image path base -->
-<c:set var="imagePathBase" value="/images/photos"></c:set>
+<c:set var="imagePathBase" value="/images"></c:set>
 
 <!DOCTYPE html> 
 <html dir="ltr" lang="en-US">
@@ -160,8 +160,25 @@
                     ============================================= -->
                     <div class="sidebar nobottommargin col_last">
                         <div class="sidebar-widgets-wrap">
+                        
+                        	<!-- menu -->
+                            <div class="widget widget_links clearfix">
+                                <h4>OUR DRINKS</h4>
+                                <ul>
+                                    <li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=13"><div>Mousse</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
+					            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
+									<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
+									<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
+                                </ul>
+                            </div>
+                        	
                             
-
+							<!-- most popular -->
                             <div class="widget clearfix">
                                 <h4>Most Popular</h4>
                                 <div id="post-list-footer">
@@ -319,21 +336,7 @@
                                 </div>
                             </div>
                             
-                            <!-- menu -->
-                            <div class="widget widget_links clearfix">
-                                <h4>OUR DRINKS</h4>
-                                <ul>
-                                    <li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=13"><div>Mousse</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
-					            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
-									<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
-									<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
-									<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
-									<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
-                                </ul>
-                            </div>
+                            
                             
                             
 						<!-- 

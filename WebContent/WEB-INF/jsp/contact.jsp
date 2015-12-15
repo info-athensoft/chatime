@@ -71,11 +71,11 @@
         <section id="page-title">
 
             <div class="container clearfix">
-                <h1>Contact and Career</h1>
+                <h1>Location and Contact</h1>
                 <span>Get in touch with us</span>
                 <ol class="breadcrumb">
                     <li><a href="index.jsp">Home</a></li>
-                    <li class="active">Contact</li>
+                    <li class="active">Location</li>
                 </ol>
             </div>
 
@@ -240,7 +240,7 @@
 						
 						<p style="font-size:1.2em">Put your hiring words here</p>
 						
-						<img src="images/clients/1.png"/>
+						<img src="images/career/career-1.png"/>
 						
 						<p>&nbsp;</p>
 							

@@ -161,9 +161,16 @@ public class GlobalContorller {
 
 	
 	@RequestMapping("/contact.do")	
-	public ModelAndView goContactUs(){
+	public ModelAndView goContact(){
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("contact");		
+		return mav;
+	}
+	
+	@RequestMapping("/career.do")	
+	public ModelAndView goCareer(){
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("career");		
 		return mav;
 	}
 	

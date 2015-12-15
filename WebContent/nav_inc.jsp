@@ -36,16 +36,16 @@
          </li>
 
          <!-- events -->
-         <li><a href="event.do"><div>Events</div></a>
-        </li>
+         <li><a href="event.do"><div>Events</div></a></li>
         
         <!-- contact us -->
-        <li><a href="contact.do"><div>Location</div></a>
-        </li> 
+        <li><a href="contact.do"><div>Location</div></a></li>
+        
+        <!-- career -->
+        <li><a href="career.do"><div>Career</div></a></li> 
         
         <!-- franchise -->
-        <li><a href="franchise.do"><div>Franchise</div></a>
-        </li>
+        <li><a href="franchise.do"><div>Franchise</div></a></li>
         
    </ul>
          

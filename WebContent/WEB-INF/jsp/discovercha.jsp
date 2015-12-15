@@ -95,7 +95,7 @@
                     <div class="col_one_third nobottommargin">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <img src="images/services/1.jpg" alt="Why choose Us?">
+                                <img src="images/discovercha/discovercha-1.jpg" alt="Why choose Us?">
                             </div>
                             <div class="fbox-desc">
                                 <h3>Toppings<span class="subtitle">Put your words here</span></h3>
@@ -107,7 +107,7 @@
                     <div class="col_one_third nobottommargin">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <img src="images/services/2.jpg" alt="Why choose Us?">
+                                <img src="images/discovercha/discovercha-2.jpg" alt="Why choose Us?">
                             </div>
                             <div class="fbox-desc">
                                 <h3>Size<span class="subtitle">Put your words here</span></h3>
@@ -119,7 +119,7 @@
                     <div class="col_one_third nobottommargin col_last">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <img src="images/services/3.jpg" alt="Why choose Us?">
+                                <img src="images/discovercha/discovercha-3.jpg" alt="Why choose Us?">
                             </div>
                             <div class="fbox-desc">
                                 <h3>Sweetness and Ice<span class="subtitle">Put your words here</span></h3>
@@ -141,10 +141,11 @@
 
                         <div class="col_full">
 
-                            <img data-animate="fadeIn" class="aligncenter" src="images/discovercha/toppings-discover-cha.png" alt="Macbook">
+                            <img data-animate="fadeIn" class="aligncenter" src="images/discovercha/discovercha-4.png" alt="Macbook">
 
                         </div>
-
+						
+						<!-- 
                         <div class="col_one_third nobottommargin">
 
                             <div class="feature-box fbox-plain">
@@ -178,8 +179,8 @@
                                 <h3>Complete your Payment.</h3>
                                 <p>Necessitatibus accusamus, inventore atque commodi, animi architecto ea sed, suscipit tempora ex deleniti quae. Consectetur, sint velit.</p>
                             </div>
-
                         </div>
+                         -->
 
                     </div>
 
@@ -189,7 +190,7 @@
 
                     <div class="col_three_fifth topmargin1 nobottommargin" id="radarChart" style="opacity: 0;">
                         <!-- <canvas id="radarChartCanvas" width="430" height="300"></canvas>  -->
-                        <img src="images/discovercha/size-discover-cha-2.png" width="600" height="380"/>
+                        <img src="images/discovercha/discovercha-5.png" width="600" height="380"/>
                     </div>
 
                     <div class="col_two_fifth nobottommargin col_last">
@@ -200,7 +201,7 @@
                         </div>
 
                         <p></p>
-                        <a href="#">Learn more &rarr;</a>
+                        <a href="shopping.do?itemClassId=11">Check menu now &rarr;</a>
 
                     </div>
 
@@ -215,13 +216,13 @@
 
                         <p></p>
 
-                        <a href="#">Learn more &rarr;</a>
+                        <a href="shopping.do?itemClassId=11">Check menu now &rarr;</a>
 
                     </div>
                     
                     <div class="col_three_fifth topmargin1 col_last" id="doughnutChart" style="opacity: 0;">
                         <!-- <canvas id="doughnutChartCanvas" width="620" height="380"></canvas>  -->
-                        <img src="images/discovercha/ice-discover-cha.png" width="540" height="460"/>
+                        <img src="images/discovercha/discovercha-6.png" width="540" height="460"/>
                     </div>
 
                     <script type="text/javascript">

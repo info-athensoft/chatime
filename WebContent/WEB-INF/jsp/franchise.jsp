@@ -86,7 +86,7 @@
 
 		<!-- content -->
 		<section id="content1">
-			<div class="content-wrap" style="background-image: url(http://www.chatimemontreal.com/wp-content/uploads/2014/06/chatime-bg-21.jpg); background-repeat: repeat; background-position: center top; background-size:auto;">
+			<div class="content-wrap" style="background-image: url(images/franchise/franchise-bg-1.jpg); background-repeat: repeat; background-position: center top; background-size:auto;">
 				<div class="container clearfix">
 				
 					<div class="heading-block center">
@@ -274,7 +274,7 @@
 				<div class="content-wrap">
 				<div class="container clearfix">
 		                <div class="col_full">
-		                    <img data-animate="fadeIn" class="aligncenter" src="images/franchise/franchise-support2.png" alt="franchise-support">
+		                    <img data-animate="fadeIn" class="aligncenter" src="images/franchise/franchise-support.png" alt="franchise-support">
 		                </div>
 		         </div>
 		         </div>
