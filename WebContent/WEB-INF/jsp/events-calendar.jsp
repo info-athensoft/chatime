@@ -71,13 +71,9 @@
         <!-- Content
         ============================================= -->
         <section id="content">
-
             <div class="content-wrap">
-
                 <div class="parallax header-stick bottommargin-lg light" style="padding: 60px 0; background-image: url('images/events/events-bg-1.jpg'); height: auto;" data-stellar-background-ratio="0.5">
-
                     <div class="container clearfix">
-
                         <div class="events-calendar">
                             <div class="events-calendar-header clearfix">
                                 <h2>Events Overview</h2>
