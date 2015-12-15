@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!-- image path base -->
-<c:set var="imagePathBase" value="/images"></c:set>
+<c:set var="imagePathBase" value="images/photos"></c:set>
 
 <!DOCTYPE html> 
 <html dir="ltr" lang="en-US">
@@ -131,10 +131,12 @@
                             <div class="product clearfix">
                                 <div class="product-image">
                                     <a href="viewitemdetail.do?itemId=${item.itemId}"><img src="${imagePathBase}/${item.itemClassId}/${item.itemPicName}" alt="${item.itemPicName}"></a>
+                                    <!-- 
                                     <div class="product-overlay">
                                         <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
                                         <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
                                     </div>
+                                     -->
                                 </div>
                                 <div class="product-desc center">
                                     <div class="product-title"><h3><a href="#">${item.itemName}</a></h3></div>
@@ -171,9 +173,9 @@
 					            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
 					            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
 									<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
-									<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
-									<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
-									<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
+									<li><a href="shopping.do?itemClassId=19""><div>Coffee</div></a></li>
+									<li><a href="shopping.do?itemClassId=17"><div>Oriental Pop Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=18"><div>Smoothie</div></a></li>
                                 </ul>
                             </div>
                         	
@@ -184,11 +186,11 @@
                                 <div id="post-list-footer">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_popular/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Hawaiian Fruit Tea</a></h4>
+                                                <h4><a href="#">Mango Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
                                                 <li class="color">$3.99</li>
@@ -199,11 +201,11 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_popular/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Hawaiian Fruit Tea</a></h4>
+                                                <h4><a href="#">Grapefruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
                                                 <li class="color">$3.99</li>
@@ -214,11 +216,11 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/7.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_popular/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Hawaiian Fruit Tea</a></h4>
+                                                <h4><a href="#">Passion Fruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
                                                 <li class="color">$3.99</li>
@@ -291,11 +293,11 @@
                                 <div id="Popular-item">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/8.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_new/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Hawaiian Fruit Tea</a></h4>
+                                                <h4><a href="#">Mango Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
                                                 <li class="color">$3.99</li>
@@ -306,30 +308,30 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/5.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_new/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Hawaiian Fruit Tea</a></h4>
+                                                <h4><a href="#">Grapefruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
                                                 <li class="color">$3.99</li>
-                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i></li>
+                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i> <i class="icon-star-empty"></i></li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/7.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_new/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Hawaiian Fruit Tea</a></h4>
+                                                <h4><a href="#">Passion Fruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
                                                 <li class="color">$3.99</li>
-                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i></li>
+                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i></li>
                                             </ul>
                                         </div>
                                     </div>

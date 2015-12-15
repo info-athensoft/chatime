@@ -168,7 +168,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
         	
         
 			<!-- full width -->
-			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/parallax/home/5.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/home/home-bg-1.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="container center clearfix">
 
                         <div class="emphasis-title">
@@ -208,7 +208,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
                 </div>
 			
 			<!-- full width -->
-			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/home/home-bg-1.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/home/home-bg-2.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="container center clearfix">
 
                         <div class="emphasis-title">
@@ -226,7 +226,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
 			
 			<!-- join us -->
         	<div class="row clearfix common-height">
-                    <div class="col-md-6 center col-padding" style="background: url('images/home/home-bg-2.jpg') center center no-repeat; background-size: 95%;">
+                    <div class="col-md-6 center col-padding" style="background: url('images/home/home-2.jpg') center center no-repeat; background-size: 95%;">
                     </div>
 
                     <!-- <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;"> -->

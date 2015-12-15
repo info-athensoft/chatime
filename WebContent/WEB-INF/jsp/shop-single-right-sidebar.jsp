@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!-- image path base -->
-<c:set var="imagePathBase" value="/images"></c:set>
+<c:set var="imagePathBase" value="images/photos"></c:set>
 
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
@@ -307,7 +307,8 @@
                         </div>
 
                         <div class="clear"></div><div class="line"></div>
-
+						
+						<!-- related products -->
                         <div class="col_full nobottommargin">
 
                             <h4>Related Products</h4>
@@ -317,17 +318,14 @@
                                 <div class="oc-item">
                                     <div class="product iproduct clearfix">
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/dress/1.jpg" alt="Checked Short Dress"></a>
-                                            <a href="#"><img src="images/shop/dress/1-1.jpg" alt="Checked Short Dress"></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/101-Mango-Green-Tea-120x178.jpg" alt=""></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/101-Mango-Green-Tea-120x178.jpg" alt=""></a>
                                             <div class="sale-flash">50% Off*</div>
-                                            <div class="product-overlay">
-                                                <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                                <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                            </div>
+                                            
                                         </div>
                                         <div class="product-desc center">
-                                            <div class="product-title"><h3><a href="#">Checked Short Dress</a></h3></div>
-                                            <div class="product-price"><del>$24.99</del> <ins>$12.49</ins></div>
+                                            <div class="product-title"><h3><a href="#">Mango-Green-Tea</a></h3></div>
+                                            <div class="product-price"><del>$4.99</del> <ins>$3.49</ins></div>
                                         </div>
                                     </div>
                                 </div>
@@ -335,16 +333,13 @@
                                 <div class="oc-item">
                                     <div class="product iproduct clearfix">
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/pants/1-1.jpg" alt="Slim Fit Chinos"></a>
-                                            <a href="#"><img src="images/shop/pants/1.jpg" alt="Slim Fit Chinos"></a>
-                                            <div class="product-overlay">
-                                                <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> Add to Cart</span></a>
-                                                <a href="include/ajax/shop-item.html" class="item-quick-view" data-lightbox="ajax"><i class="icon-zoom-in2"></i><span> Quick View</span></a>
-                                            </div>
+                                            <a href="#"><img src="images/prod_related/thumbs/102-Grapefruit-Green-Tea-120x178.jpg" alt=""></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/102-Grapefruit-Green-Tea-120x178.jpg" alt=""></a>
+                                            
                                         </div>
                                         <div class="product-desc center">
-                                            <div class="product-title"><h3><a href="#">Slim Fit Chinos</a></h3></div>
-                                            <div class="product-price">$39.99</div>
+                                            <div class="product-title"><h3><a href="#">Grapefruit-Green-Tea</a></h3></div>
+                                            <div class="product-price">$4.99</div>
                                         </div>
                                     </div>
                                 </div>
@@ -352,12 +347,12 @@
                                 <div class="oc-item">
                                     <div class="product iproduct clearfix">
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/shoes/1-1.jpg" alt="Dark Brown Boots"></a>
-                                            <a href="#"><img src="images/shop/shoes/1.jpg" alt="Dark Brown Boots"></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/103-Lemon-Green-Black-Tea-120x178.jpg" alt="Dark Brown Boots"></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/103-Lemon-Green-Black-Tea-120x178.jpg" alt="Dark Brown Boots"></a>
                                         </div>
                                         <div class="product-desc center">
-                                            <div class="product-title"><h3><a href="#">Dark Brown Boots</a></h3></div>
-                                            <div class="product-price">$49</div>
+                                            <div class="product-title"><h3><a href="#">Lemon-Green-Black-Tea</a></h3></div>
+                                            <div class="product-price">$4.99</div>
                                         </div>
                                     </div>
                                 </div>
@@ -365,12 +360,12 @@
                                 <div class="oc-item">
                                     <div class="product iproduct clearfix">
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/dress/2.jpg" alt="Light Blue Denim Dress"></a>
-                                            <a href="#"><img src="images/shop/dress/2-2.jpg" alt="Light Blue Denim Dress"></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/104-Kumquat-Green-Tea-120x178.jpg" alt="Light Blue Denim Dress"></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/104-Kumquat-Green-Tea-120x178.jpg" alt="Light Blue Denim Dress"></a>
                                         </div>
                                         <div class="product-desc center">
-                                            <div class="product-title"><h3><a href="#">Light Blue Denim Dress</a></h3></div>
-                                            <div class="product-price">$19.95</div>
+                                            <div class="product-title"><h3><a href="#">Kumquat-Green-Tea</a></h3></div>
+                                            <div class="product-price">$4.99</div>
                                         </div>
                                     </div>
                                 </div>
@@ -378,13 +373,13 @@
                                 <div class="oc-item">
                                     <div class="product iproduct clearfix">
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/sunglasses/1.jpg" alt="Unisex Sunglasses"></a>
-                                            <a href="#"><img src="images/shop/sunglasses/1-1.jpg" alt="Unisex Sunglasses"></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/105-Hawaiian-Fruit-Tea-120x178.jpg" alt="Unisex Sunglasses"></a>
+                                            <a href="#"><img src="images/prod_related/thumbs/105-Hawaiian-Fruit-Tea-120x178.jpg" alt="Unisex Sunglasses"></a>
                                             <div class="sale-flash">Sale!</div>
                                         </div>
                                         <div class="product-desc center">
-                                            <div class="product-title"><h3><a href="#">Unisex Sunglasses</a></h3></div>
-                                            <div class="product-price"><del>$19.99</del> <ins>$11.99</ins></div>
+                                            <div class="product-title"><h3><a href="#">Hawaiian-Fruit-Tea</a></h3></div>
+                                            <div class="product-price"><del>$4.99</del> <ins>$3.99</ins></div>
                                         </div>
                                     </div>
                                 </div>
@@ -414,7 +409,7 @@
 
                             </script>
 
-                        </div>
+                        </div><!-- related products -->
 
                     </div>
 
@@ -422,6 +417,8 @@
                     ============================================= -->
                     <div class="sidebar nobottommargin col_last">
                         <div class="sidebar-widgets-wrap">
+                        
+                        	<!-- menu -->
                             <div class="widget widget_links clearfix">
                                 <h4>OUR DRINKS</h4>
                                 <ul>
@@ -431,25 +428,27 @@
 					            	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
 					            	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
 									<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
-									<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
-									<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
-									<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
+									<li><a href="shopping.do?itemClassId=19""><div>Coffee</div></a></li>
+									<li><a href="shopping.do?itemClassId=17"><div>Oriental Pop Tea</div></a></li>
+									<li><a href="shopping.do?itemClassId=18"><div>Smoothie</div></a></li>
                                 </ul>
                             </div>
-
+                        	
+                            
+							<!-- most popular -->
                             <div class="widget clearfix">
-                                <h4>Recent Items</h4>
+                                <h4>Most Popular</h4>
                                 <div id="post-list-footer">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_popular/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Blue Round-Neck Tshirt</a></h4>
+                                                <h4><a href="#">Mango Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
-                                                <li class="color">$29.99</li>
+                                                <li class="color">$3.99</li>
                                                 <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i></li>
                                             </ul>
                                         </div>
@@ -457,14 +456,14 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_popular/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Checked Short Dress</a></h4>
+                                                <h4><a href="#">Grapefruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
-                                                <li class="color">$23.99</li>
+                                                <li class="color">$3.99</li>
                                                 <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i> <i class="icon-star-empty"></i></li>
                                             </ul>
                                         </div>
@@ -472,14 +471,14 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/7.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_popular/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Light Blue Denim Dress</a></h4>
+                                                <h4><a href="#">Passion Fruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
-                                                <li class="color">$19.99</li>
+                                                <li class="color">$3.99</li>
                                                 <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i></li>
                                             </ul>
                                         </div>
@@ -487,6 +486,8 @@
 
                                 </div>
                             </div>
+                            
+                            
 						
 						<!-- 
                             <div class="widget clearfix">
@@ -543,18 +544,18 @@
                              -->
 
                             <div class="widget clearfix">
-                                <h4>Popular Items</h4>
+                                <h4>New Drinks</h4>
                                 <div id="Popular-item">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/8.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_new/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Pink Printed Dress</a></h4>
+                                                <h4><a href="#">Mango Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
-                                                <li class="color">$21</li>
+                                                <li class="color">$3.99</li>
                                                 <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i></li>
                                             </ul>
                                         </div>
@@ -562,36 +563,39 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/5.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_new/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Blue Round-Neck Tshirt</a></h4>
+                                                <h4><a href="#">Grapefruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
-                                                <li class="color">$19.99</li>
-                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i></li>
+                                                <li class="color">$3.99</li>
+                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i> <i class="icon-star-empty"></i></li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/12.jpg" alt="Image"></a>
+                                            <a href="#"><img src="images/prod_new/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
-                                                <h4><a href="#">Men Aviator Sunglasses</a></h4>
+                                                <h4><a href="#">Passion Fruit Green Tea</a></h4>
                                             </div>
                                             <ul class="entry-meta">
-                                                <li class="color">$14.99</li>
-                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i></li>
+                                                <li class="color">$3.99</li>
+                                                <li><i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
+                            
+                            
+                            
+                            
 						<!-- 
                             <div class="widget clearfix">
                                 <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FEnvato&amp;width=240&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=499481203443583" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:290px;" allowTransparency="true"></iframe>
