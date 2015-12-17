@@ -4,6 +4,7 @@ public class ItemSpec {
 	private String propertyName;
 	private String propertyValue;
 	
+	
 	public String getPropertyName() {
 		return propertyName;
 	}
@@ -17,5 +18,9 @@ public class ItemSpec {
 		this.propertyValue = propertyValue;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "ItemSpec [propertyName=" + propertyName + ", propertyValue=" + propertyValue + "]";
+	}
+		
 }

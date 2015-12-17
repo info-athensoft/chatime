@@ -59,6 +59,8 @@ public class GlobalContorller {
 		Map<String, Object> model = mav.getModel();		
 		List<Item> itemList = itemSaleService.findByClassId(itemClassId);
 //		System.out.println(itemList.size());
+		
+
 		model.put("itemList", itemList);
 		
 		//item class info

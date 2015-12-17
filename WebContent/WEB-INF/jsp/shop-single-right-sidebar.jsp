@@ -173,7 +173,7 @@
 									<!-- product name -->
 									<h4>${item.itemName}</h4>
 									<p style="font-size:1.1em">Product short description</p>
-									
+										
                                     <div class="clear"></div>
                                     <div class="line"></div>
 

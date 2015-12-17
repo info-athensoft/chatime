@@ -139,7 +139,9 @@
                                      -->
                                 </div>
                                 <div class="product-desc center">
-                                    <div class="product-title"><h3><a href="viewitemdetail.do?itemId=${item.itemId}">${item.itemName}</a></h3></div>
+                                    <div class="product-title">
+                                    	<h3><a href="viewitemdetail.do?itemId=${item.itemId}">${item.itemName}</a></h3>
+                                    </div>
                                    <!-- <div class="product-price">$4.20–$5.20</div>  
                                     <div class="product-rating">
                                         <i class="icon-star3"></i>

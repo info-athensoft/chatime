@@ -131,8 +131,9 @@ public class Item {
 				+ itemPicName + ", itemDesc=" + itemDesc + ", itemClassId=" + itemClassId + ", itemClassCode="
 				+ itemClassCode + ", itemClassName=" + itemClassName + ", itemSeqNo=" + itemSeqNo + ", itemStatusId="
 				+ itemStatusId + ", statusName=" + statusName + ", imagePathBig=" + imagePathBig + ", imagePathSmall="
-				+ imagePathSmall + "]";
+				+ imagePathSmall + ", itemSpecList=" + itemSpecList + ", itemSale=" + itemSale + "]";
 	}
+	
 
 	
 	

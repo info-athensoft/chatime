@@ -76,7 +76,6 @@ public class ItemService {
 		//test
 		System.out.println("itemService.java");
 		System.out.println(item);
-		System.out.println(item.getItemSale());
 		return item;
 	}
 	
