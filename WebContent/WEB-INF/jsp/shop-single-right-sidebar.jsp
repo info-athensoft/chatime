@@ -10,7 +10,7 @@
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="SemiColonWeb" />
+    <meta name="author" content="athensoft.com" />
 
     <!-- Stylesheets
     ============================================= -->
@@ -35,7 +35,7 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>Shop Single - Right Sidebar | Canvas</title>
+    <title>Chatime | Offering brewed fresh tea</title>
 
 </head>
 
