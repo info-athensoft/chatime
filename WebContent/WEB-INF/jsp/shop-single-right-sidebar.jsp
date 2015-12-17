@@ -130,8 +130,7 @@
 
                                 <div class="col_half col_last product-desc">
 									
-									<!-- product name -->
-									<h3>${item.itemName}</h3>
+									
 									
 									
                                     <!-- Product Single - Price
@@ -170,14 +169,18 @@
                                     </form>
                                      -->
                                     <!-- Product Single - Quantity & Cart Button End -->
-
+									
+									<!-- product name -->
+									<h4>${item.itemName}</h4>
+									<p style="font-size:1.1em">Product short description</p>
+									
                                     <div class="clear"></div>
                                     <div class="line"></div>
 
                                     <!-- Product Single - Short Description
                                     ============================================= -->
-                                    <p>Product short description</p>
-
+                                    
+									
                                     <!-- Product Single - Short Description End -->
 
  									<div class="col_full col_last">

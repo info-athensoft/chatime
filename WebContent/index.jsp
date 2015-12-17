@@ -178,8 +178,8 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
                              -->
                         </div>
 
-                        <a href="shop-3-right-sidebar.jsp" class="button button-rounded button-white button-light button-large">Start Browsing</a>
-                        <a href="contact.jsp" class="button button-rounded button-white button-light button-large">Find us</a>
+                        <a href="shopping.do?itemClassId=11" class="button button-rounded button-white button-light button-large">Explore our drinks</a>
+                        <a href="event.do" class="button button-rounded button-white button-light button-large">Upcoming events</a>
 
                     </div>
               </div>
@@ -218,8 +218,8 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
                              -->
                         </div>
 
-                        <a href="shop-3-right-sidebar.jsp" class="button button-rounded button-white button-light button-large">Start Browsing</a>
-                        <a href="contact.jsp" class="button button-rounded button-white button-light button-large">Find us</a>
+                        <a href="franchise.do" class="button button-rounded button-white button-light button-large">Open your Chatime house</a>
+                        <a href="career.do" class="button button-rounded button-white button-light button-large">Apply for a job</a>
 
                     </div>
               </div>
@@ -245,8 +245,23 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
                     </div>
                 </div>
 			
-			
-			
+			<!-- full width -->
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/home/home-bg-3.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+                    <div class="container center clearfix">
+
+                        <div class="emphasis-title">
+                        <!-- 
+                            <h2>Perfect tool for Customization</h2>
+                            <p class="lead topmargin-sm">Create as much unique content as you want with this Template which has powerful &amp; optimized code.</p>
+                             -->
+                        </div>
+
+                        <a href="discovercha.do" class="button button-rounded button-white button-light button-large">Discover Cha</a>
+                        <a href="contact.do" class="button button-rounded button-white button-light button-large">Find us</a>
+
+                    </div>
+              </div>
+			 <div><br/></div>
 			
 			<!--  -->
 			<!-- 
@@ -306,6 +321,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
         
         <!-- #content end -->
     </div><!-- #wrapper end -->
+    
     
     
  <!-- featured items -->

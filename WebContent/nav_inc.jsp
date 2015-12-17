@@ -29,9 +29,9 @@
             	<li><a href="shopping.do?itemClassId=14"><div>Refreshing Juice</div></a></li>
             	<li><a href="shopping.do?itemClassId=15""><div>Fresh Tea</div></a></li>
 				<li><a href="shopping.do?itemClassId=16""><div>Chatime Jelly</div></a></li>
-				<li><a href="shopping.do?itemClassId=17""><div>Coffe</div></a></li>
-				<li><a href="shopping.do?itemClassId=18"><div>Oriental Pop Tea</div></a></li>
-				<li><a href="shopping.do?itemClassId=19"><div>Smoothie</div></a></li>
+				<li><a href="shopping.do?itemClassId=19""><div>Coffee</div></a></li>
+				<li><a href="shopping.do?itemClassId=17"><div>Oriental Pop Tea</div></a></li>
+				<li><a href="shopping.do?itemClassId=18"><div>Smoothie</div></a></li>
 			</ul>
          </li>
 
@@ -61,7 +61,7 @@
      ============================================= -->
      <div id="top-search">
          <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-         <form action="search.html" method="get">
+         <form action="####" method="get">
              <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
          </form>
      </div><!-- #top-search end -->
