@@ -65,7 +65,7 @@
 
                     <!-- Logo
                     ============================================= -->
-                    <jsp:include page="../../logo_inc.html"/>
+                    <jsp:include page="../../logo_inc.jsp"/>
                     <!-- #logo end -->
 
                     <!-- Primary Navigation
