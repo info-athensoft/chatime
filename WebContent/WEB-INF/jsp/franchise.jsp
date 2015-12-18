@@ -1,8 +1,19 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+
+<!-- i18n -->
+<c:set var="loc" value="en_US"/>
+<c:if test="${!(empty param.locale)}">
+  <c:set var="loc" value="${param.locale}"/>
+</c:if>
+<fmt:setLocale value="${loc}" />
+<!-- ENDS i18n -->
 
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr">
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -290,7 +301,7 @@
 
         <!-- Footer
         ============================================= -->
-        <jsp:include page="../../footer_inc.html"/>
+        <jsp:include page="../../footer_inc.jsp"/>
 
     </div><!-- #wrapper end -->
 
