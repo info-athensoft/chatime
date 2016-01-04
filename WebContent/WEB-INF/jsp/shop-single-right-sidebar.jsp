@@ -13,7 +13,8 @@
 <!-- ENDS i18n -->
 
 <!-- image path base -->
-<c:set var="imagePathBase" value="images/photos"></c:set>
+<c:set var="imagePathBase" value="/img/photos"></c:set>
+<c:set var="imageBase" value="images"></c:set>
 
 <!DOCTYPE html>
 <html dir="ltr">
