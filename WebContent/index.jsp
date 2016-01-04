@@ -16,7 +16,7 @@
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+	<meta name="author" content="athensoft.com" />
 
     <!-- Stylesheets
     ============================================= -->
@@ -40,6 +40,27 @@
     ============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Athensoft SEO -->	
+	<link rel="author" href="https://plus.google.com/+Chatime-qc/" />
+	<link rel="publisher" href="https://plus.google.com/+Chatime-qc/" />
+	<meta name="description" content="Chatime Canada - Chatime is a Taiwanese franchise founded in 2005 with over 800 retail outlets across countries like Canada, Taiwan, Malaysia, China, India," />
+	<meta name="keywords" content="montrea. Montreal cha, Montreal Chatime, chatimemontreal, chatime montreal, chatimemtl, chatime mtl, chat,cha time montreal,  time, chatime, qc, chatime q, chatime-qc.com,chatime montreal, quebec. chatime Quebec, Chat, time, chatime.com, ichatime.com,  chatime, montreal toronto, canada, fresh tea, drink, highlight, thirsty, limited, edition, card, local, designer, Bono, stellar, fashion, only, colour, experience, strawberry, pudding, food, fall, love, recommend, hot, cold, all, roast, chocolate, brown, rice, milk, tea, oolong, brew, jasmine, green, fairy, vanilla, classic, hazelnut, caramel, England, pearl, red, bean, matcha, lychee, Horlicks, ichiban, puyu, black, blue, mountain, house, Americano, view, latte, cappuccino, mocha, mango, grapefruit, lemon, kumquat, Taiwan, plum, passion, orange, Yakult, wintermelon, sakura, Japan, Japanese, Genmaicha, Formosa, anxi, chrysanthemum, grass, jelly, lemon, ginger, longan, red, date, Hawaii, fruit, honey, aloe, pomelo, superior, pure, cocoa, smoothie, grape, coffee, gallery, concept, stand, out, first, kind, design, community, encourage, involve, form, event, gig, showcase, ideal, place, young, Malaysia, talent, offer, venue, explore, art, hotlink, promotion, January, reward, internet, ticket, free, upgrade, enjoy, benefit, sign, loyal, cup, exclusive, member, month, redeem, birthday, year, complimentary, choice, choose, token, giveaway, contest, part, points, collect, participate, merchant, order, start, pay, less, nation, wide, life, time, renew, ship, fee, replace, round, things, need, know, find, more, happenings, location, kiosk, lite, delivery, service, dessert, search, home, career, user, franchise, contact, site, map, copy, righ, chatime cambodia,cambodia drink,drink,drinks,legend cinema drink,best drink, Premium Green tea, Oolong tea, Black tea, Herbal tea, Rooibos tea, White tea, tea accessories and more, montreal best chatime" />
+	<link rel="canonical" href="http://www.chatimemontreal.com/" />
+	<script type="text/javascript">
+	 /*
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-52493502-2']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	  */
+	</script>
+	<!-- Ends of Athensoft SEO -->
+
 
     <!-- Document Title
     ============================================= -->
