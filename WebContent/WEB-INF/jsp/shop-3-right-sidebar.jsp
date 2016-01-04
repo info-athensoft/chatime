@@ -13,7 +13,8 @@
 <!-- ENDS i18n -->
 
 <!-- image path base -->
-<c:set var="imagePathBase" value="images/photos"></c:set>
+<c:set var="imagePathBase" value="/img/photos"></c:set>
+<c:set var="imageBase" value="images"></c:set>
 
 <!DOCTYPE html> 
 <html dir="ltr">
@@ -198,7 +199,7 @@
                                 <div id="post-list-footer">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/prod_popular/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/prod_popular/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -213,7 +214,7 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/prod_popular/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/prod_popular/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -228,7 +229,7 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/prod_popular/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/prod_popular/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -253,7 +254,7 @@
                                 <div class="widget-last-view">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/3.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/shop/small/3.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -268,7 +269,7 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/10.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/shop/small/10.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -283,7 +284,7 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/shop/small/11.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/shop/small/11.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -305,7 +306,7 @@
                                 <div id="Popular-item">
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/prod_new/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/prod_new/thumbs/101-Mango-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -320,7 +321,7 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/prod_new/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/prod_new/thumbs/102-Grapefruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -335,7 +336,7 @@
 
                                     <div class="spost clearfix">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/prod_new/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
+                                            <a href="#"><img src="${imageBase}/prod_new/thumbs/106-Passion-Fruit-Green-Tea-70x70.jpg" alt="Image"></a>
                                         </div>
                                         <div class="entry-c">
                                             <div class="entry-title">
@@ -376,14 +377,14 @@
                             <div class="widget clearfix">
 								<h4>Fans who like us</h4>
                                 <div id="oc-clients-full" class="owl-carousel image-carousel">
-                                    <div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
-                                    <div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
-                                    <div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Clients"></a></div>
-                                    <div class="oc-item"><a href="#"><img src="images/clients/4.png" alt="Clients"></a></div>
-                                    <div class="oc-item"><a href="#"><img src="images/clients/5.png" alt="Clients"></a></div>
-                                    <div class="oc-item"><a href="#"><img src="images/clients/6.png" alt="Clients"></a></div>
-                                    <div class="oc-item"><a href="#"><img src="images/clients/7.png" alt="Clients"></a></div>
-                                    <div class="oc-item"><a href="#"><img src="images/clients/8.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/1.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/2.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/3.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/4.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/5.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/6.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/7.png" alt="Clients"></a></div>
+                                    <div class="oc-item"><a href="#"><img src="${imageBase}/clients/8.png" alt="Clients"></a></div>
                                 </div>
 
                                 <script type="text/javascript">

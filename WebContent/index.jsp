@@ -11,6 +11,9 @@
 <fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- global vars -->
+<c:set var="imageBase" value="images"/>
+
 <!DOCTYPE html>
 <html dir="ltr">
 <head>
@@ -139,9 +142,9 @@
                   </div>
               </div>
               <div class="video-wrap">
-                  <video poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
-                      <source src='images/videos/Clip_02_720.mp4' type='video/mp4' />
-                      <source src='images/videos/Clip_02_720.webm' type='video/webm' />
+                  <video poster="${imageBase}/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
+                      <source src='${imageBase}/videos/Clip_02_720.mp4' type='video/mp4' />
+                      <source src='${imageBase}/videos/Clip_02_720.webm' type='video/webm' />
                       <!-- <source src='images/videos/explore.webm' type='video/webm' />  -->
                   </video>
                   <div class="video-overlay" style="background-color: rgba(0,0,0,0.15);"></div>
@@ -167,7 +170,7 @@
         	<!-- about us -->
         	<div class="row clearfix common-height">
 
-                    <div class="col-md-6 center col-padding" style="background: url('images/home/home-1.jpg') center center no-repeat; background-size: 95%;">
+                    <div class="col-md-6 center col-padding" style="background: url('${imageBase}/home/home-1.jpg') center center no-repeat; background-size: 95%;">
                         <!-- <div>&nbsp;</div>  -->
                     </div>
 
@@ -198,7 +201,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
         	
         
 			<!-- full width -->
-			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/home/home-bg-1.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('${imageBase}/home/home-bg-1.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="container center clearfix">
 
                         <div class="emphasis-title">
@@ -230,15 +233,15 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
                         </div>
                     </div>
                     
-                     <div class="col-md-6 center col-padding" style="background: url('images/home/home-2.jpg') center center no-repeat; background-size: 95%;">
-                    <!-- <div class="col-md-6 center col-padding" style="background: url('images/home/main-bg.jpg') center center no-repeat; background-size: cover;"> -->
+                     <div class="col-md-6 center col-padding" style="background: url('${imageBase}/home/home-2.jpg') center center no-repeat; background-size: 95%;">
+                    <!-- <div class="col-md-6 center col-padding" style="background: url('${imageBase}/home/main-bg.jpg') center center no-repeat; background-size: cover;"> -->
                         <div>&nbsp;</div>
                     </div>
                     
                 </div>
 			
 			<!-- full width -->
-			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/home/home-bg-2.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('${imageBase}/home/home-bg-2.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="container center clearfix">
 
                         <div class="emphasis-title">
@@ -256,7 +259,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
 			
 			<!-- join us -->
         	<div class="row clearfix common-height">
-                    <div class="col-md-6 center col-padding" style="background: url('images/home/home-2.jpg') center center no-repeat; background-size: 95%;">
+                    <div class="col-md-6 center col-padding" style="background: url('${imageBase}/home/home-2.jpg') center center no-repeat; background-size: 95%;">
                     </div>
 
                     <!-- <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;"> -->
@@ -276,7 +279,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
                 </div>
 			
 			<!-- full width -->
-			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('images/home/home-bg-3.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+			 <div class="section parallax dark nomargin noborder" style="padding: 150px 0; background-image: url('${imageBase}/home/home-bg-3.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="container center clearfix">
 
                         <div class="emphasis-title">
@@ -297,7 +300,7 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
 			<!-- 
             <div class="content-wrap nopadding">
 
-                <div class="section parallax full-screen nomargin noborder" style="background-image: url('images/parallax/home/11.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
+                <div class="section parallax full-screen nomargin noborder" style="background-image: url('${imageBase}/parallax/home/11.jpg');background-size:cover;" data-stellar-background-ratio="0.4">
                     <div class="vertical-middle">
                         <div class="container clearfix">
 
@@ -361,18 +364,18 @@ Globally, we have over 1000 retail locations including Taiwan, Mainland China, H
          <span>Put your words here. Put your words here. Put your words here.</span>
 	</div>    
     <div id="oc-clients" class="section nobgcolor notopmargin owl-carousel owl-carousel-full image-carousel footer-stick">
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-1.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-2.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-3.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-4.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-5.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-6.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-1.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-2.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-3.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-4.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-5.png" alt="Featured Item"></a></div>
-        <div class="oc-item"><a href="#"><img src="images/featured/featured-6.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-1.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-2.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-3.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-4.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-5.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-6.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-1.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-2.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-3.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-4.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-5.png" alt="Featured Item"></a></div>
+        <div class="oc-item"><a href="#"><img src="${imageBase}/featured/featured-6.png" alt="Featured Item"></a></div>
     </div>
 	<div>
 		<br/>

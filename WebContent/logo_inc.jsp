@@ -12,7 +12,10 @@
 <fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- global vars -->
+<c:set var="imageBase" value="images"/>
+
 <div id="logo">
-<a href="index.jsp?locale=${loc}" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Logo"></a>
-<a href="index.jsp?locale=${loc}" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Logo"></a>
+<a href="index.jsp?locale=${loc}" class="standard-logo" data-dark-logo="${imageBase}/logo-dark.png"><img src="${imageBase}/logo.png" alt="Logo"></a>
+<a href="index.jsp?locale=${loc}" class="retina-logo" data-dark-logo="${imageBase}/logo-dark@2x.png"><img src="${imageBase}/logo@2x.png" alt="Logo"></a>
 </div>

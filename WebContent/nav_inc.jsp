@@ -12,6 +12,9 @@
 <fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- global vars -->
+<c:set var="imageBase" value="images"/>
+
 
  <nav id="primary-menu">
      <ul>
@@ -54,10 +57,10 @@
         <li><a href="franchise.do"><div><spring:message code="menu.franchise"/></div></a></li>
         
         <!-- language -->
-        <li><a href="####"><div><img id="current_lang" src="images/icons/lang/en.png"/></div></a>
+        <li><a href="####"><div><img id="current_lang" src="${imageBase}/icons/lang/en.png"/></div></a>
         	<ul>
-            	<li><a href="index.jsp?locale=en_US" onclick="changeLangFlag('en')"><div><img src="images/icons/lang/en.png"/> &nbsp;&nbsp;&nbsp;&nbsp; ENGLISH</div></a></li>
-            	<li><a href="index.jsp?locale=fr_CA" onclick="changeLangFlag('fr')"><div><img src="images/icons/lang/fr.png"/> &nbsp;&nbsp;&nbsp;&nbsp; FRENCH</div></a></li>
+            	<li><a href="index.jsp?locale=en_US" onclick="changeLangFlag('en')"><div><img src="${imageBase}/icons/lang/en.png"/> &nbsp;&nbsp;&nbsp;&nbsp; ENGLISH</div></a></li>
+            	<li><a href="index.jsp?locale=fr_CA" onclick="changeLangFlag('fr')"><div><img src="${imageBase}/icons/lang/fr.png"/> &nbsp;&nbsp;&nbsp;&nbsp; FRENCH</div></a></li>
 			</ul>        
         </li>        
    </ul>
@@ -85,12 +88,12 @@
  <script>
  	function changeLangFlag(locale){
  		if(locale=='en'){
- 			$('#current_lang').attr('src','images/icons/lang/en.png');
+ 			$('#current_lang').attr('src','${imageBase}/icons/lang/en.png');
  		}
  		if(locale=='fr'){
- 			$('#current_lang').attr('src','images/icons/lang/fr.png');
+ 			$('#current_lang').attr('src','${imageBase}/icons/lang/fr.png');
  		}else{
- 			$('#current_lang').attr('src','images/icons/lang/en.png');
+ 			$('#current_lang').attr('src','${imageBase}/icons/lang/en.png');
  		}
  	}
 
@@ -99,10 +102,10 @@
  	$(document).ready(function(){
  		//alert(lang);
 		if(lang=='en_US'){
-			$('#current_lang').attr('src','images/icons/lang/en.png');
+			$('#current_lang').attr('src','${imageBase}/icons/lang/en.png');
 		}
 		if(lang=='fr_CA'){
-			$('#current_lang').attr('src','images/icons/lang/fr.png');
+			$('#current_lang').attr('src','${imageBase}/icons/lang/fr.png');
 		}
 		
  	});
