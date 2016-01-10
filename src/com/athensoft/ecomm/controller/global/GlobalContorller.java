@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -52,6 +53,35 @@ public class GlobalContorller {
 	
 
 
+//	@RequestMapping(value="/shopping/itemClassId/{itemClassId}")	
+//	public ModelAndView goShoppingByClassId(@PathVariable int itemClassId){
+//		ModelAndView mav = new ModelAndView();
+//		
+//		Map<String, Object> model = mav.getModel();		
+//		List<Item> itemList = itemSaleService.findByClassId(itemClassId);
+////		System.out.println(itemList.size());
+//		
+//
+//		model.put("itemList", itemList);
+//		
+//		//item class info
+//		ItemClassMultiple itemClass = itemClassMultipleService.findItemClassById(itemClassId);
+//		model.put("itemClass", itemClass);
+//		
+//		//parent class info
+//		int parentId = itemClass.getParentId();
+//		ItemClassMultiple itemParentClass = itemClassMultipleService.findItemClassById(parentId);
+//		model.put("itemParentClass", itemParentClass);
+//		
+//		//featured item
+////		List<ItemSaleFeatured> featuredItemList = itemSaleFeaturedService.getFeaturedItem();
+////		model.put("featuredItemList", featuredItemList);
+//		
+//		mav.setViewName("shop-3-right-sidebar");		
+//		return mav;
+//	}
+	
+	
 	@RequestMapping("/shopping.do")	
 	public ModelAndView goShoppingByClassId(@RequestParam int itemClassId){
 		ModelAndView mav = new ModelAndView();

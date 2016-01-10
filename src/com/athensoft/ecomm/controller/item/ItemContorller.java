@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,7 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.athensoft.ecomm.entity.item.Item;
-import com.athensoft.ecomm.entity.sale.ItemSaleFeatured;
 import com.athensoft.ecomm.service.item.ItemService;
 import com.athensoft.ecomm.service.sale.ItemSaleFeaturedService;
 import com.athensoft.ecomm.service.sale.ItemSaleService;
@@ -56,7 +56,7 @@ public class ItemContorller {
 	
 	@RequestMapping(value="/getitem_classcode.do",method=RequestMethod.POST,produces="application/json")
 	@ResponseBody
-	public Map<String, Object> getItemByClassCode(@RequestParam String itemClassCode){
+	public Map<String, Object> getItemByClassCode(@RequestParam  String itemClassCode){
 			
 		ModelAndView mav = new ModelAndView();
 		
@@ -67,6 +67,21 @@ public class ItemContorller {
 		model.put("itemList", itemList);
 		return model;
 	}
+	
+	/*
+	@RequestMapping(value="/getitem_classcode.do",method=RequestMethod.POST,produces="application/json")
+	@ResponseBody
+	public Map<String, Object> getItemByClassCode(@RequestParam String itemClassCode){
+			
+		ModelAndView mav = new ModelAndView();
+		
+		//set model
+		Map<String, Object> model = mav.getModel();		
+		List<Item> itemList = itemService.findByClassCode(itemClassCode);
+		//System.out.println(itemList.size());
+		model.put("itemList", itemList);
+		return model;
+	}*/
 	
 	
 	@RequestMapping(value="/search_item_fuzzy.do",method=RequestMethod.POST,produces="application/json")
