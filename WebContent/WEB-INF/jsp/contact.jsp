@@ -166,7 +166,7 @@
 
                         <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
 
-                        <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+                        <form class="nobottommargin" id="template-contactform" name="template-contactform" action="send_email_single.do" method="post">
 
                             <div class="form-process"></div>
 
@@ -209,7 +209,7 @@
 
                             <div class="col_full">
                                 <label for="template-contactform-message">Message <small>*</small></label>
-                                <textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+                                <textarea class="required sm-form-control" id="template-contactform-message" name="message_body" rows="6" cols="30"></textarea>
                             </div>
 
                             <div class="col_full hidden">
@@ -223,7 +223,7 @@
                         </form>
 
                         <script type="text/javascript">
-
+						/*
                             $("#template-contactform").validate({
                                 submitHandler: function(form) {
                                     $('.form-process').fadeIn();
@@ -238,7 +238,7 @@
                                     });
                                 }
                             });
-
+						*/
                         </script>
 
                     </div><!-- .postcontent end -->
