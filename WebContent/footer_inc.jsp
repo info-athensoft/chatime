@@ -10,6 +10,10 @@
   <c:set var="loc" value="${param.locale}"/>
 </c:if>
 
+<!-- social links -->
+<jsp:include page="social_inc.jsp"/>
+<!-- ENDS social links -->
+
 <footer id="footer" class="dark">
 
             <div class="container">
@@ -160,14 +164,14 @@
                             <div class="row">
 
                                 <div class="col-md-6 clearfix bottommargin-sm">
-                                    <a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin si-large" style="margin-right: 10px;">
+                                    <a href="<c:out value='${social_facebook}'/>" target="_blank" class="social-icon si-dark si-colored si-facebook nobottommargin si-large" style="margin-right: 10px;">
                                         <i class="icon-facebook"></i>
                                         <i class="icon-facebook"></i>
                                     </a>
                                     <a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
                                 </div>
                                 <div class="col-md-6 clearfix">
-                                    <a href="#" class="social-icon si-dark si-colored si-twitter nobottommargin si-large" style="margin-right: 10px;">
+                                    <a href="<c:out value='${social_twitter}'/>" target="_blank"  class="social-icon si-dark si-colored si-twitter nobottommargin si-large" style="margin-right: 10px;">
                                         <i class="icon-twitter"></i>
                                         <i class="icon-twitter"></i>
                                     </a>
@@ -195,19 +199,24 @@
 
                     <div class="col_half col_last tright">
                         <div class="fright clearfix">
-                            <a href="#" class="social-icon si-small si-borderless si-facebook">
+                            <a href="<c:out value='${social_facebook}'/>"  target="_blank"  class="social-icon si-small si-borderless si-facebook">
                                 <i class="icon-facebook"  style="color:#DDD;"></i>
                                 <i class="icon-facebook"  style="color:#DDD;"></i>
                             </a>
 
-                            <a href="#" class="social-icon si-small si-borderless si-twitter">
+                            <a href="<c:out value='${social_twitter}'/>"  target="_blank"  class="social-icon si-small si-borderless si-twitter">
                                 <i class="icon-twitter"  style="color:#DDD;"></i>
                                 <i class="icon-twitter"  style="color:#DDD;"></i>
                             </a>
 
-                           <a href="#" class="social-icon si-small si-borderless si-pinterest">
+                           <a href="<c:out value='${social_instagram}'/>"  target="_blank"  class="social-icon si-small si-borderless si-instagram">
                                 <i class="icon-instagram"  style="color:#DDD;"></i>
                                 <i class="icon-instagram"  style="color:#DDD;"></i>
+                            </a>
+                            
+                            <a href="<c:out value='${social_google}'/>"  target="_blank"  class="social-icon si-small si-borderless si-google">
+                                <i class="icon-google"  style="color:#DDD;"></i>
+                                <i class="icon-google"  style="color:#DDD;"></i>
                             </a>
 
                         </div>

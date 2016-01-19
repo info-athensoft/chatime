@@ -12,6 +12,10 @@
 <fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- social links -->
+<jsp:include page="../../social_inc.jsp"/>
+<!-- ENDS social links -->
+
 <!DOCTYPE html>
 <html dir="ltr">
 <head>
@@ -267,17 +271,17 @@
                         
                         <div class="widget noborder notoppadding">
 
-                            <a href="#" class="social-icon si-large si-dark si-facebook">
+                            <a href="<c:out value='${social_facebook}'/>" target="_blank" class="social-icon si-large si-dark si-facebook">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
                             </a>
 
-                            <a href="#" class="social-icon si-large si-dark si-twitter">
+                            <a href="<c:out value='${social_twitter}'/>" target="_blank" class="social-icon si-large si-dark si-twitter">
                                 <i class="icon-twitter"></i>
                                 <i class="icon-twitter"></i>
                             </a>
 
-                            <a href="#" class="social-icon si-large si-dark si-instagram">
+                            <a href="<c:out value='${social_instagram}'/>" target="_blank" class="social-icon si-large si-dark si-instagram">
                                 <i class="icon-instagram"></i>
                                 <i class="icon-instagram"></i>
                             </a>

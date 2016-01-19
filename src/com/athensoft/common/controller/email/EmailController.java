@@ -56,7 +56,7 @@ public class EmailController {
 		
 		//set view
 		String viewName = "contact";
-		mav.setViewName(viewName);
+		mav.setViewName("redirect:/contact.do");
 		
 		//test service
 		//emailService.sendSimpleMail(message_body);

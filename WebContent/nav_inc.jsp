@@ -68,10 +68,18 @@
         <li><a href="franchise.do"><div><spring:message code="menu.franchise"/></div></a></li>
         
         <!-- language -->
+        <!-- 
         <li><a href="####"><div><img id="current_lang" src="${imageBase}/icons/lang/en.png"/></div></a>
         	<ul>
             	<li><a href="index.jsp?locale=en_US" onclick="changeLangFlag('en')"><div><img src="${imageBase}/icons/lang/en.png"/> &nbsp;&nbsp;&nbsp;&nbsp; ENGLISH</div></a></li>
             	<li><a href="index.jsp?locale=fr_CA" onclick="changeLangFlag('fr')"><div><img src="${imageBase}/icons/lang/fr.png"/> &nbsp;&nbsp;&nbsp;&nbsp; FRENCH</div></a></li>
+			</ul>        
+        </li> 
+         -->
+          <li><a href="####"><div><img id="current_lang" src="${imageBase}/icons/lang/ca.gif"/></div></a>
+        	<ul>
+            	<li><a href="index.jsp?locale=en_US" ><div><img src="${imageBase}/icons/lang/ca.gif"/> &nbsp;&nbsp;&nbsp;&nbsp; ENGLISH</div></a></li>
+            	<li><a href="index.jsp?locale=fr_CA" ><div><img src="${imageBase}/icons/lang/ca.gif"/> &nbsp;&nbsp;&nbsp;&nbsp; FRENCH</div></a></li>
 			</ul>        
         </li>        
    </ul>
@@ -112,12 +120,14 @@
  	lang = '${loc}';
  	$(document).ready(function(){
  		//alert(lang);
+ 		/* change flag for lang and country
 		if(lang=='en_US'){
 			$('#current_lang').attr('src','${imageBase}/icons/lang/en.png');
 		}
 		if(lang=='fr_CA'){
 			$('#current_lang').attr('src','${imageBase}/icons/lang/fr.png');
-		}
+		}*/
+		
 		
  	});
  	</script>
