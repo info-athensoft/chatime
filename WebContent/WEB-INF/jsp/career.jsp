@@ -12,6 +12,10 @@
 <fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- form action -->
+<c:set var="form_action_application" value="send_application_email_single.do"/>
+<!-- ENDS form action -->
+
 <!DOCTYPE html>
 <html dir="ltr">
 <head>
@@ -181,7 +185,7 @@
 						
 						
 
-						<form action="#" method="post" role="form">
+						<form action="<c:out value='${form_action_application}'/>" method="post" role="form">
 
 							<div class="col_half">
 								<label for="template-contactform-name">Name <small>*</small></label>
@@ -253,7 +257,7 @@
 								
 							<div class="col_full">
 								<label for="template-contactform-application">Application <small>*</small></label>
-								<textarea name="application" id="application" rows="6" tabindex="11" class="sm-form-control required"></textarea>
+								<textarea name="message_body" id="application" rows="6" tabindex="11" class="sm-form-control required"></textarea>
 							</div>
 
 							<div class="col_full">

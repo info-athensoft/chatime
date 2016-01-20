@@ -9,6 +9,8 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
+import com.athensoft.common.entity.email.EmailForm;
+
 
 
 /**
@@ -19,6 +21,9 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class EmailService {
+	
+	public static final String FROM_EMAIL_ADDR = "support@athensoft.com";
+	public static final String TO_EMAIL_ADDR = "athens314@hotmail.com";
 	
 	MailSender mailSender ;
 	
@@ -60,20 +65,58 @@ public class EmailService {
 		
 		MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
 		try{
-			messageHelper.setFrom("support@athensoft.com");
+			messageHelper.setFrom(FROM_EMAIL_ADDR);
 //			messageHelper.setTo("595472653@qq.com");  
 			messageHelper.setTo("athens314@hotmail.com");  
           
 			messageHelper.setSubject("[INF.ATHENSOFT]Test html email");
-			String strMsg = "<html><body><a href='www.athensoft.com'>Welcome to INF. Athensoft</a><br/><img src='http://www.athensoft.com/content/img/slide/b6.jpg' width='100'/>";
-			
-			strMsg += "<form action='http://www.athensoft.com' method='post'>"
-					+ "<input type='submit' value='Love My Husband'>"
-					+"</form></body></html>";
+			String strMsg = msg;
 			
 			messageHelper.setText(strMsg,true);
         
         	senderImpl.send(mail);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	
+	/* contact form */
+	public void sendContactMail(EmailForm contactForm){
+		System.out.println("sendContactMail() of"+ this.getClass().getName());
+		
+		MimeMessage mail = senderImpl.createMimeMessage();		
+		MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
+		try{
+			messageHelper.setFrom(FROM_EMAIL_ADDR);
+			messageHelper.setTo(TO_EMAIL_ADDR);  
+			
+			//set mail subject
+			String emailTitle = "[Customer] send us an email via website";
+			messageHelper.setSubject(emailTitle);
+			
+			//set mail body
+			String senderName 	= contactForm.getName();
+			String senderPhone 	= contactForm.getPhone();
+			String senderEmail 	= contactForm.getEmail();
+			String senderSubject= contactForm.getSubject();
+			String senderMessage= contactForm.getMessage();
+			
+			StringBuffer mailBody = new StringBuffer();
+			mailBody.append("Customer: "+senderName);
+			mailBody.append("<br/>");
+			mailBody.append("Phone: "+senderPhone);
+			mailBody.append("<br/>");
+			mailBody.append("Email: "+senderEmail);
+			mailBody.append("<br/><br/>");
+			mailBody.append("Subject: "+senderSubject);
+			mailBody.append("<br/><br/>");
+			mailBody.append(senderMessage);
+							
+			messageHelper.setText(mailBody.toString(),true);
+			
+			//execute sending mail
+        	senderImpl.send(mail);
+        	
 		}catch(Exception e){
 			e.printStackTrace();
 		}
