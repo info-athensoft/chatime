@@ -11,4 +11,11 @@ public abstract class EmailForm {
 	public abstract void setSubject(String subject);
 	public abstract String getMessage();
 	public abstract void setMessage(String message);
+	
+	
+	public abstract String getFirstName();
+	public abstract void setFristName(String fname);
+	
+	public abstract String getLastName();
+	public abstract void setLastName(String lname);
 }

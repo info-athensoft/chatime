@@ -189,19 +189,24 @@
 
 							<div class="col_half">
 								<label for="template-contactform-name">Name <small>*</small></label>
-								<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+								<input type="text" id="template-applicationform-fname" name="applicationform_fname" value="" class="sm-form-control required" />
 							</div>
 
 							<div class="col_half col_last">
 								<label for="template-contactform-name">Last Name <small>*</small></label>
-								<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+								<input type="text" id="template-applicationform-lname" name="applicationform_lname" value="" class="sm-form-control required" />
 							</div>
 
 							<div class="clear"></div>
 
 							<div class="col_full">
 								<label for="template-contactform-email">Email <small>*</small></label>
-								<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+								<input type="email" id="template-applicationform-email" name="applicationform_email" value="" class="required email sm-form-control" />
+							</div>
+							
+							<div class="col_full">
+								<label for="template-contactform-phone">Phone <small>*</small></label>
+								<input type="text" id="template-applicationform-phone" name="applicationform_phone" value="" class="sm-form-control" />
 							</div>
 							
 							<!-- 
@@ -257,7 +262,7 @@
 								
 							<div class="col_full">
 								<label for="template-contactform-application">Application <small>*</small></label>
-								<textarea name="message_body" id="application" rows="6" tabindex="11" class="sm-form-control required"></textarea>
+								<textarea name="applicationform_message" id="application" rows="6" tabindex="11" class="sm-form-control required"></textarea>
 							</div>
 
 							<div class="col_full">

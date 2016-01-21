@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.athensoft.common.entity.email.ApplicationForm;
 import com.athensoft.common.entity.email.ContactForm;
 import com.athensoft.common.service.email.EmailService;
 
@@ -91,6 +92,35 @@ public class EmailController {
 		cf.setMessage(contactform_message);
 		
 		emailService.sendContactMail(cf);
+							
+		return mav;
+	}
+	
+	
+	@RequestMapping("/send_application_email_single.do")
+	public ModelAndView sendApplicationMail(
+		@RequestParam String applicationform_fname,
+		@RequestParam String applicationform_lname,
+		@RequestParam String applicationform_email,
+		@RequestParam String applicationform_phone,
+		@RequestParam String applicationform_message
+		){
+		System.out.println("entering send_contact_email_single.do ...");
+		ModelAndView mav = new ModelAndView();
+		
+		//set view
+		String viewName = "redirect:/career.do";
+		mav.setViewName(viewName);
+		
+		//create application form object
+		ApplicationForm af = new ApplicationForm();
+		af.setFirstName(applicationform_fname);
+		af.setLastName(applicationform_lname);
+		af.setEmail(applicationform_email);
+		af.setPhone(applicationform_phone);
+		af.setMessage(applicationform_message);
+		
+		emailService.sendApplicationMail(af);
 							
 		return mav;
 	}

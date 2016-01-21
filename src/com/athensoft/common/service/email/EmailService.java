@@ -91,7 +91,7 @@ public class EmailService {
 			messageHelper.setTo(TO_EMAIL_ADDR);  
 			
 			//set mail subject
-			String emailTitle = "[Customer] send us an email via website";
+			String emailTitle = "[Customer] sent us an email via website";
 			messageHelper.setSubject(emailTitle);
 			
 			//set mail body
@@ -109,6 +109,46 @@ public class EmailService {
 			mailBody.append("Email: "+senderEmail);
 			mailBody.append("<br/><br/>");
 			mailBody.append("Subject: "+senderSubject);
+			mailBody.append("<br/><br/>");
+			mailBody.append(senderMessage);
+							
+			messageHelper.setText(mailBody.toString(),true);
+			
+			//execute sending mail
+        	senderImpl.send(mail);
+        	
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	
+	/* application form */
+	public void sendApplicationMail(EmailForm applicationForm){
+		System.out.println("sendApplicationMail() of"+ this.getClass().getName());
+		
+		MimeMessage mail = senderImpl.createMimeMessage();		
+		MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
+		try{
+			messageHelper.setFrom(FROM_EMAIL_ADDR);
+			messageHelper.setTo(TO_EMAIL_ADDR);  
+			
+			//set mail subject
+			String emailTitle = "[Job application] someone sent us a job application via website";
+			messageHelper.setSubject(emailTitle);
+			
+			//set mail body
+			String senderFirstName 	= applicationForm.getFirstName();
+			String senderLastName 	= applicationForm.getLastName();
+			String senderPhone 		= applicationForm.getPhone();
+			String senderEmail 		= applicationForm.getEmail();
+			String senderMessage	= applicationForm.getMessage();
+			
+			StringBuffer mailBody = new StringBuffer();
+			mailBody.append("Customer: "+senderFirstName+" "+senderLastName);
+			mailBody.append("<br/>");
+			mailBody.append("Phone: "+senderPhone);
+			mailBody.append("<br/>");
+			mailBody.append("Email: "+senderEmail);
 			mailBody.append("<br/><br/>");
 			mailBody.append(senderMessage);
 							

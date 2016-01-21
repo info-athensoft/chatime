@@ -174,7 +174,7 @@
 
                         <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
 
-                        <form class="nobottommargin" id="template-contactform" name="template-contactform" action="<c:out value='${form_action_contact}'/>" method="post">
+                        <form class="nobottommargin" id="template-contactform" name="contactform" action="<c:out value='${form_action_contact}'/>" method="post">
 
                             <div class="form-process"></div>
 
@@ -231,22 +231,21 @@
                         </form>
 
                         <script type="text/javascript">
-						/*
                             $("#template-contactform").validate({
                                 submitHandler: function(form) {
                                     $('.form-process').fadeIn();
+                                    
                                     $(form).ajaxSubmit({
-                                        target: '#contact-form-result',
+                                        //target: '#contact-form-result',
                                         success: function() {
                                             $('.form-process').fadeOut();
                                             $('#template-contactform').find('.sm-form-control').val('');
-                                            $('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
-                                            SEMICOLON.widget.notifications($('#contact-form-result'));
+                                            //$('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
+                                           SEMICOLON.widget.notifications($('#contact-form-result'));
                                         }
                                     });
                                 }
                             });
-						*/
                         </script>
 
                     </div><!-- .postcontent end -->
