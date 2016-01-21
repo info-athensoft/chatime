@@ -184,8 +184,8 @@
 						</div>
 						
 						
-
-						<form action="<c:out value='${form_action_application}'/>" method="post" role="form">
+						<div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
+						<form id="template-applicationform" action="<c:out value='${form_action_application}'/>" method="post" role="form">
 
 							<div class="col_half">
 								<label for="template-contactform-name">Name <small>*</small></label>
@@ -270,7 +270,24 @@
 							</div>
 
 						</form>
-
+						
+						<script type="text/javascript">
+                            $("#template-applicationform").validate({
+                                submitHandler: function(form) {
+                                    $('.form-process').fadeIn();
+                                    
+                                    $(form).ajaxSubmit({
+                                        //target: '#contact-form-result',
+                                        success: function() {
+                                            $('.form-process').fadeOut();
+                                            $('#template-applicationform').find('.sm-form-control').val('');
+                                            //$('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
+                                           SEMICOLON.widget.notifications($('#contact-form-result'));
+                                        }
+                                    });
+                                }
+                            });
+                        </script>
 					</div>
         		</div>
         	</div>
