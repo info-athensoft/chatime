@@ -14,17 +14,6 @@
 <jsp:include page="social_inc.jsp"/>
 <!-- ENDS social links -->
 
-<!-- email subscribe -->
-<!-- <c:set var="form_action_subscribe" value="include/subscribe.php"/> -->
-<c:set var="form_action_subscribe_mailchimp" value="//athensoft.us12.list-manage.com/subscribe/post?u=bb855dd680501212b67a9ed30&amp;id=757f8fb0ad"/>
-<!-- ENDS email subscribe -->
-
-
-
-
-
-
-
 <footer id="footer" class="dark">
 
             <div class="container">
@@ -140,56 +129,40 @@
 
                         </div>
 
-                        <!-- Begin MailChimp Signup Form -->
-						<div id="mc_embed_signup" class="widget subscribe-widget clearfix">
-							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-							<div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
-							
-							<!-- without validate by mailchimp original code
-							<form action="${form_action_subscribe_mailchimp}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate nobottommargin" target="_blank" role="form" novalidate>
-							 -->
-							<form action="${form_action_subscribe_mailchimp}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate nobottommargin" target="_blank" role="form">
-							    <div id="mc_embed_signup_scroll" class="input-group divcenter">
-								<span class="input-group-addon"><i class="icon-email2"></i></span>
-								<input type="email" id="widget-subscribe-form-email" name="EMAIL" class="form-control required email" placeholder="Enter your Email">
-								<span class="input-group-btn">
-		                            <button class="btn btn-success" type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
-		                        </span>
-								<!--
-								<div class="mc-field-group">
-									<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-									<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-								</div>
-								 
-								<div class="mc-field-group">
-									<label for="mce-FNAME">First Name </label>
-									<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-								</div>
-								<div class="mc-field-group">
-									<label for="mce-LNAME">Last Name </label>
-									<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-								</div>
-								 -->
-								<div id="mce-responses" class="clear">
-									<div class="response" id="mce-error-response" style="display:none"></div>
-									<div class="response" id="mce-success-response" style="display:none"></div>
-								</div>    
-								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-							    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-							    	<input type="text" name="b_bb855dd680501212b67a9ed30_757f8fb0ad" tabindex="-1" value="">
-							    </div>
-							    <!-- 
-							    <div class="clear">
-							    	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
-							    </div>
-								 -->    
-							    </div>
-							</form>
-						</div>
-						<!--End mc_embed_signup-->
+                        <div class="widget subscribe-widget clearfix">
+                            <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+                            <div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
+                            <form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
+                                <div class="input-group divcenter">
+                                    <span class="input-group-addon"><i class="icon-email2"></i></span>
+                                    <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-success" type="submit">Subscribe</button>
+                                    </span>
+                                </div>
+                            </form>
+                            <script type="text/javascript">
+                                jQuery("#widget-subscribe-form").validate({
+                                    submitHandler: function(form) {
+                                        jQuery(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
+                                        jQuery(form).ajaxSubmit({
+                                            target: '#widget-subscribe-form-result',
+                                            success: function() {
+                                                jQuery(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
+                                                jQuery('#widget-subscribe-form').find('.form-control').val('');
+                                                jQuery('#widget-subscribe-form-result').attr('data-notify-msg', jQuery('#widget-subscribe-form-result').html()).html('');
+                                                SEMICOLON.widget.notifications(jQuery('#widget-subscribe-form-result'));
+                                            }
+                                        });
+                                    }
+                                });
+                            </script>
+                        </div>
 
                         <div class="widget clearfix" style="margin-bottom: -20px;">
+
                             <div class="row">
+
                                 <div class="col-md-6 clearfix bottommargin-sm">
                                     <a href="<c:out value='${social_facebook}'/>" target="_blank" class="social-icon si-dark si-colored si-facebook nobottommargin si-large" style="margin-right: 10px;">
                                         <i class="icon-facebook"></i>
