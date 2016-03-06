@@ -29,7 +29,7 @@
           <!-- cha menu -->
          <li><a href="shopping.do?itemClassId=11"><div><spring:message code="menu.chamenu"/></div></a>
             <ul>
-            <!--  
+             
             	<li><a href="shopping.do?itemClassId=11"><div>Fruit Tea</div></a></li>
             	<li><a href="shopping.do?itemClassId=12"><div>Milk Tea</div></a></li>
             	<li><a href="shopping.do?itemClassId=13"><div>Mousse</div></a></li>
@@ -39,7 +39,7 @@
 				<li><a href="shopping.do?itemClassId=19""><div>Coffee</div></a></li>
 				<li><a href="shopping.do?itemClassId=17"><div>Oriental Pop Tea</div></a></li>
 				<li><a href="shopping.do?itemClassId=18"><div>Smoothie</div></a></li>
-				-->
+			 <!--	
 				<li><a href="shopping/itemClassId/11"><div>Fruit Tea</div></a></li>
             	<li><a href="shopping/itemClassId/11"><div>Milk Tea</div></a></li>
             	<li><a href="shopping/itemClassId/11"><div>Mousse</div></a></li>
@@ -49,6 +49,7 @@
 				<li><a href="shopping/itemClassId/11""><div>Coffee</div></a></li>
 				<li><a href="shopping/itemClassId/11"><div>Oriental Pop Tea</div></a></li>
 				<li><a href="shopping/itemClassId/11"><div>Smoothie</div></a></li>
+				-->
 			</ul>
          </li>
 
